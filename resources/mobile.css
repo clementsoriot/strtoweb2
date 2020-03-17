@@ -20,6 +20,24 @@
   .header .head .container{
     width: 80%;
   }
+  .about .container{
+    width: 80%;
+  }
+  .about .container{
+    flex-direction: column;
+  }
+  .websites .container{
+    width: 80%;
+  }
+  .websites .container .content-card .row{
+    flex-direction: column;
+  }
+  .websites .container .content-card .row .website img{
+    width: 100%;
+  }
+  .websites .container .content-card .row .website{
+    margin: 2rem 0;
+  }
 
 
 }
