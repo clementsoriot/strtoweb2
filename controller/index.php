@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>STRTOWEB : lpb de tout les rebeux</title>
     <link rel="stylesheet" href="<?= siteurl ?>/src/main.css/">
+    <link rel="stylesheet" href="<?= siteurl ?>/src/mobile.css/">
+    <script src="https://use.fontawesome.com/94cfaff88f.js"></script>
   </head>
   <body>
     <div class="header">
@@ -11,12 +13,15 @@
         <div class="part">
           <h1>STRTOWEB</h1>
         </div>
-        <div class="part">
+        <div class="part pc">
           <p class="link">Accueil</p>
           <p class="link">Sites partenaires</p>
           <p class="link">F.A.Q</p>
           <p class="link">Nous Contacter</p>
           <a class="btn link">Espace Client</a>
+        </div>
+        <div class="part mobile">
+          <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
       </div>
       <div class="head">
@@ -28,7 +33,7 @@
             <a class="btn-head2">Nos sites</a>
           </div>
         </div>
-        <div class="part">
+        <div class="part pc">
           <img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/drawkit/color/drawkit-content-man-color.svg" alt="">
         </div>
       </div>
