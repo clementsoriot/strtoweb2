@@ -25,12 +25,12 @@ require 'ClassMvc.php';
 
 $meta=new Meta;
 $db1=new Database('localhost','root','','test');
-$m = new M('test@h4sh.fr','Test1@ac');
-echo $m->mail()['message'];
-print_r($m->listmail());
+//$m = new M('test@h4sh.fr','Test1@ac');
+//echo $m->mail()['message'];
+//print_r($m->listmail());
 
-// Class Mvc 
-$ClassMvc=new Systeme\mvc;	
+// Class Mvc
+$ClassMvc=new Systeme\mvc;
 require $ClassMvc->RequireController;
 
 /*****************************************************/
@@ -43,9 +43,9 @@ $GetResultCode=ob_get_clean();
 if(isset($WordToReplace)):
 	if(is_array($WordToReplace)):
 		foreach($WordToReplace as $Word => $To):
-		
+
 			$GetResultCode=str_replace($Word, $To, $GetResultCode);
-			
+
 		endforeach;
 	endif;
 endif;
