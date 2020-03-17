@@ -39,8 +39,8 @@
         </div>
         <div class="container">
           <div class="part" style="display:flex;">
-            <h1>Créez votre projet de A à Z avec STRTOWEB</h1>
-            <h2>Nous avons réaliser StrToWeb.com pour pouvoir moduler votre site internet, Autoriser les paiements en ligne, et automatiser les actions.Le site une version temporaire est ne represente pas la version finale.</h2>
+            <h1>Forgez l'identité de votre entreprise !</h1>
+            <h2><span class="selector">Votre entreprise</span> a besoin d'une <span class="light">identité</span> sur internet qui lui ait propre.</h2><h2>Construisons <span class="light">ensemble</span> votre projet numérique !</h2>
             <div class="btns">
               <a class="btn-head">Estimer mon site <i class="fas fa-arrow-right"></i></a>
               <a class="btn-head2">Nos sites</a>

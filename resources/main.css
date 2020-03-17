@@ -142,8 +142,15 @@
   text-align: justify;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.5) !important;
-  margin-bottom: 1.5rem;
   width: 80%;
+}
+.header .head .container .part h2 .light{
+  color: white !important;
+}
+.header .head .container .part h2 .selector{
+  background: #ed4840;
+  color:white;
+  padding: 0 .5rem;
 }
 .header .head .container .part{
   flex: 1;
@@ -157,6 +164,8 @@
 .header .head .container .part .btns{
   width: 100%;
   display: flex;
+  margin-top: 1.5rem;
+
 }
 .header .head .container .part .btns .btn-head{
   background: #00ba94;
