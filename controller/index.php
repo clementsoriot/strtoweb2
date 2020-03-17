@@ -40,7 +40,7 @@
         <div class="container">
           <div class="part" style="display:flex;">
             <h1>Forgez l'identité de votre entreprise !</h1>
-            <h2><span class="selector">Votre entreprise</span> a besoin d'une <span class="light">identité</span> sur internet qui lui ait propre.</h2><h2>Construisons <span class="light">ensemble</span> votre projet numérique !</h2>
+            <h2><span class="selector">Votre entreprise</span> a besoin d'une <span class="light">identité</span> sur internet qui lui est propre.</h2><h2>Construisons <span class="light">ensemble</span> votre projet numérique !</h2>
             <div class="btns">
               <a class="btn-head">Estimer mon site <i class="fas fa-arrow-right"></i></a>
               <a class="btn-head2">Nos sites</a>
@@ -60,25 +60,25 @@
         </div>
         <div class="part">
           <div class="header-card">
-            <h4>Herer ehbyufh aifha</h4>
-            <h5>When you purchase this UI Kit, you get access to a robust suite of powerful tools and components to help you build your next landing page quickly and easily.</h5>
+            <h4>Nos outils de </h4>
+            <h5>Nous avons développé une palette de services informatiques pour vous aider à mettre votre entreprise en avant en ligne !</h5>
           </div>
           <div class="body-card">
             <div class="row">
               <div class="paragraph">
-                <h6>Landing Pages</h6>
+                <h6>Un panel</h6>
                 <p>We've crafted landing page examples for many popular business and product types.</p>
                 <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
               </div>
               <div class="paragraph">
-                <h6>Landing Pages</h6>
+                <h6>un chat admin</h6>
                 <p>We've crafted landing page examples for many popular business and product types.</p>
                 <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
             <div class="row">
               <div class="paragraph">
-                <h6>Landing Pages</h6>
+                <h6></h6>
                 <p>We've crafted landing page examples for many popular business and product types.</p>
                 <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
               </div>
@@ -96,8 +96,8 @@
     <div class="websites">
       <div class="container">
         <div class="header-card">
-          <h4>Sites</h4>
-          <h5>When you purchase this UI Kit, you get access to a robust suite of powerful landing page demos to help you get started.</h5>
+          <h4>Références</h4>
+          <h5>Voici les sites que nous avons développé en 2020</h5>
         </div>
         <div class="content-card">
           <div class="row">
@@ -150,24 +150,24 @@
     <div class="websites" style="background:white;">
       <div class="container">
         <div class="header-card">
-          <h4>Documentation</h4>
-          <h5>When you purchase this UI Kit, you get access to a robust suite of powerful landing page demos to help you get started.</h5>
+          <h4>En bref</h4>
+          <h5>Voici quelques chiffres qui nous représente.</h5>
         </div>
         <div class="content-card">
           <div class="row">
             <div class="website">
               <b class="big-text">213+</b>
-              <h6 class="title">Custom/Extended Components</h6>
+              <h6 class="title">Années d'expérience.</h6>
               <p class="subtitle">We've extended and restyled Bootstrap's default components, and built a suite of new custom components.</p>
             </div>
             <div class="website">
               <b class="big-text">70+</b>
-              <h6 class="title">Custom/Extended Components</h6>
+              <h6 class="title">Sites créés</h6>
               <p class="subtitle">We've extended and restyled Bootstrap's default components, and built a suite of new custom components.</p>
             </div>
             <div class="website">
               <b class="big-text">120+</b>
-              <h6 class="title">Custom/Extended Components</h6>
+              <h6 class="title">Heures passées à coder</h6>
               <p class="subtitle">We've extended and restyled Bootstrap's default components, and built a suite of new custom components.</p>
             </div>
           </div>
@@ -182,10 +182,11 @@
           <div class="col">
             <h4>STRTOWEB</h4>
             <p>Création de site internet</p>
-            <p>Landing</p>
-            <p>Landing</p>
-            <p>Landing</p>
-            <p>Landing</p>
+            <p>
+              <img src="<?= siteurl ?>/src/images/blanc.png/" alt="">
+              <img src="<?= siteurl ?>/src/images/blanc_g.png/" alt="">
+            </p>
+
           </div>
           <div class="col">
             <h4>Product</h4>
