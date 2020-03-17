@@ -25,10 +25,16 @@
 .header .nav{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 1100px;
+  justify-content: center;
+  width: 100%;
   padding: 0.7rem 0;
   color: white;
+}
+.header .nav .container{
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header .nav .part{
   justify-content: center;
@@ -58,14 +64,58 @@
 }
 .header .head{
   display: flex;
+  justify-content: center;
   flex: 1;
+  width: 100%;
+  color: white;
+  position: relative;
+}
+.header .head .container{
+  display: flex;
   width: 1100px;
   color: white;
+  position: relative;
 }
-.header .head .part h1{
+.header .head .dropdown{
+  padding: 1rem 0;
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  background: linear-gradient(90deg, #232526, #232526);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header .head .dropdown .container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+  width: 80%;
+}
+.header .head .dropdown .container .link{
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+}
+.header .head .dropdown .container a.btn{
+  color: white !important;
+  background: white;
+  transition: 250ms background;
+  background: #00ba94;
+  border-radius: 50px;
+  padding:  0.5rem 1rem;
+}
+.header .head .dropdown .container a.btn:hover{
+  cursor: pointer;
+  background: #008f72;
+}
+.header .head .container .part h1{
   font-size: 2.5rem;
 }
-.header .head .part h2 {
+.header .head .container .part h2 {
   font-size: 1.2rem;
   text-align: justify;
   font-weight: 300;
@@ -73,17 +123,17 @@
   margin-bottom: 1.5rem;
   width: 80%;
 }
-.header .head .part{
+.header .head .container .part{
   flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-.header .head .part .btns{
+.header .head .container .part .btns{
   width: 100%;
   display: flex;
 }
-.header .head .part .btns .btn-head{
+.header .head .container .part .btns .btn-head{
   background: #00ba94;
   padding: 0.5rem 1rem;
   color: white;
@@ -92,24 +142,24 @@
   margin-right: 5px;
   transition: 250ms background;
 }
-.header .head .part .btns .btn-head:hover{
+.header .head .container .part .btns .btn-head:hover{
   background: #008f72;
   cursor: pointer;
 
 }
-.header .head .part .btns .btn-head2{
+.header .head .container .part .btns .btn-head2{
   padding: 0.5rem 1rem;
   color: white;
   font-weight: 400;
   border-radius: 50px;
   margin-right: 15px;
 }
-.header .head .part .btns .btn-head2:hover{
+.header .head .container .part .btns .btn-head2:hover{
   text-decoration: underline;
   color: #ececec;
   cursor: pointer;
 }
-.header .head .part img{
+.header .head .container .part img{
   width: 500px;
 }
 
