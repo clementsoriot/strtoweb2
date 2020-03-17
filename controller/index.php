@@ -55,7 +55,7 @@
     </div>
     <div class="about">
       <div class="container">
-        <div class="part" style="-webkit-perspective-origin: right center;">
+        <div class="part" style="-webkit-perspective-origin: right center;  perspective: 1500px;transform-style: preserve-3d;">
           <img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-portfolio.jpg" alt="">
         </div>
         <div class="part">
@@ -68,24 +68,24 @@
               <div class="paragraph">
                 <h6>Landing Pages</h6>
                 <p>We've crafted landing page examples for many popular business and product types.</p>
-                <a href="#">Learn More</a>
+                <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
               </div>
               <div class="paragraph">
                 <h6>Landing Pages</h6>
                 <p>We've crafted landing page examples for many popular business and product types.</p>
-                <a href="#">Learn More</a>
+                <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
             <div class="row">
               <div class="paragraph">
                 <h6>Landing Pages</h6>
                 <p>We've crafted landing page examples for many popular business and product types.</p>
-                <a href="#">Learn More</a>
+                <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
               </div>
               <div class="paragraph">
                 <h6>Landing Pages</h6>
                 <p>We've crafted landing page examples for many popular business and product types.</p>
-                <a href="#">Learn More</a>
+                <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
