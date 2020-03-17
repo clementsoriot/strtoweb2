@@ -144,6 +144,85 @@
           </div>
         </div>
       </div>
+      <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="#fff"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
+
+    </div>
+    <div class="websites" style="background:white;">
+      <div class="container">
+        <div class="header-card">
+          <h4>Documentation</h4>
+          <h5>When you purchase this UI Kit, you get access to a robust suite of powerful landing page demos to help you get started.</h5>
+        </div>
+        <div class="content-card">
+          <div class="row">
+            <div class="website">
+              <b class="big-text">213+</b>
+              <h6 class="title">Custom/Extended Components</h6>
+              <p class="subtitle">We've extended and restyled Bootstrap's default components, and built a suite of new custom components.</p>
+            </div>
+            <div class="website">
+              <b class="big-text">70+</b>
+              <h6 class="title">Custom/Extended Components</h6>
+              <p class="subtitle">We've extended and restyled Bootstrap's default components, and built a suite of new custom components.</p>
+            </div>
+            <div class="website">
+              <b class="big-text">120+</b>
+              <h6 class="title">Custom/Extended Components</h6>
+              <p class="subtitle">We've extended and restyled Bootstrap's default components, and built a suite of new custom components.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="#1f2d41"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
+
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="top">
+          <div class="col">
+            <h4>STRTOWEB</h4>
+            <p>Création de site internet</p>
+            <p>Landing</p>
+            <p>Landing</p>
+            <p>Landing</p>
+            <p>Landing</p>
+          </div>
+          <div class="col">
+            <h4>Product</h4>
+            <p>Landing</p>
+            <p>Landing</p>
+            <p>Landing</p>
+            <p>Landing</p>
+            <p>Landing</p>
+          </div>
+          <div class="col">
+            <h4>Product</h4>
+            <p>Landing</p>
+            <p>Landing</p>
+
+          </div>
+          <div class="col">
+            <h4>Product</h4>
+            <p>Landing</p>
+            <p>Landing</p>
+            <p>Landing</p>
+            <p>Landing</p>
+          </div>
+          <div class="col">
+            <h4>Product</h4>
+            <p>Landing nike zebi</p>
+            <p>Landing</p>
+            <p>Landing</p>
+            <p>Landing</p>
+
+          </div>
+        </div>
+        <div class="hr"></div>
+        <div class="bottom">
+          <p>StrToWeb @ 2020</p>
+          <p>politique de confidentialité</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
