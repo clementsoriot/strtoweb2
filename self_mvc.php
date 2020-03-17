@@ -13,7 +13,7 @@ ob_start();
 
 
 
-$PageDisponible['home'] = root.pre.'controller'.pre.'home.php';
+$PageDisponible['home'] = root.pre.'controller'.pre.'index.php';
 $PageDisponible['404'] = root.pre.'controller'.pre.'404.php';
 
 
