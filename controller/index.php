@@ -53,7 +53,45 @@
       </div>
       <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="#fff"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
     </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="about">
+      <div class="container">
+        <div class="part" style="-webkit-perspective-origin: right center;">
+          <img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-portfolio.jpg" alt="">
+        </div>
+        <div class="part">
+          <div class="header-card">
+            <h4>Herer ehbyufh aifha</h4>
+            <h5>When you purchase this UI Kit, you get access to a robust suite of powerful tools and components to help you build your next landing page quickly and easily.</h5>
+          </div>
+          <div class="body-card">
+            <div class="row">
+              <div class="paragraph">
+                <h6>Landing Pages</h6>
+                <p>We've crafted landing page examples for many popular business and product types.</p>
+                <a href="#">Learn More</a>
+              </div>
+              <div class="paragraph">
+                <h6>Landing Pages</h6>
+                <p>We've crafted landing page examples for many popular business and product types.</p>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="paragraph">
+                <h6>Landing Pages</h6>
+                <p>We've crafted landing page examples for many popular business and product types.</p>
+                <a href="#">Learn More</a>
+              </div>
+              <div class="paragraph">
+                <h6>Landing Pages</h6>
+                <p>We've crafted landing page examples for many popular business and product types.</p>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
 <script type="text/javascript">
