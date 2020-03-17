@@ -9,7 +9,7 @@
     display: none;
   }
   .header .nav{
-    background: #232526
+    background: #1f2d41;
   }
   .header .nav h1{
     font-size: 1.5rem;
@@ -20,4 +20,6 @@
   .header .head .container{
     width: 80%;
   }
+
+
 }

@@ -20,14 +20,15 @@
   flex-direction: column;
   width: 100%;
   height: 720px;
-  background: linear-gradient(90deg, #614385, #4e4376);
+  /*background: linear-gradient(90deg, #614385, #4e4376);*/
+  background: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
 }
 .header .nav{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 0.7rem 0;
+  padding: 1rem 0;
   color: white;
 }
 .header .nav .container{
@@ -42,9 +43,11 @@
 }
 .header .nav .part .link{
   padding: 0.2rem 1rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.5);
   transition: 250ms color;
+  display: flex;
+  justify-content: center;align-items: center;
 }
 .header .nav .part .link:hover{
   color: white;
@@ -56,7 +59,12 @@
   transition: 250ms background;
   background: #00ba94;
   border-radius: 50px;
-
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.header .nav .part i{
+  font-size: 0.5rem;
+  margin-left: 5px;
 }
 .header .nav .part a.btn:hover{
   cursor: pointer;
@@ -81,9 +89,9 @@
   position: absolute;
   width: 100%;
   z-index: 5;
-  background: linear-gradient(90deg, #232526, #232526);
+  background: linear-gradient(90deg, #1f2d41 , #1f2d41);
   color: white;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -99,14 +107,28 @@
 .header .head .dropdown .container .link{
   padding: 0.5rem 0;
   font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.header .head .dropdown .container .link i{
+  color: rgba(255, 255, 255, 0.5);
 }
 .header .head .dropdown .container a.btn{
   color: white !important;
-  background: white;
+  font-size: 1rem;
   transition: 250ms background;
   background: #00ba94;
   border-radius: 50px;
   padding:  0.5rem 1rem;
+  text-transform: uppercase;
+  justify-content: center !important;
+  font-weight: thin;
+}
+.header .head .dropdown .container a.btn i{
+  color: white;
+  margin-left: 5px;
 }
 .header .head .dropdown .container a.btn:hover{
   cursor: pointer;
@@ -137,15 +159,17 @@
   background: #00ba94;
   padding: 0.5rem 1rem;
   color: white;
-  font-weight: 400;
+  font-weight: bold;
   border-radius: 50px;
   margin-right: 5px;
   transition: 250ms background;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .5px
 }
 .header .head .container .part .btns .btn-head:hover{
   background: #008f72;
   cursor: pointer;
-
 }
 .header .head .container .part .btns .btn-head2{
   padding: 0.5rem 1rem;
@@ -153,6 +177,8 @@
   font-weight: 400;
   border-radius: 50px;
   margin-right: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .header .head .container .part .btns .btn-head2:hover{
   text-decoration: underline;

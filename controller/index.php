@@ -5,7 +5,7 @@
     <title>STRTOWEB : lpb de tout les rebeux</title>
     <link rel="stylesheet" href="<?= siteurl ?>/src/main.css/">
     <link rel="stylesheet" href="<?= siteurl ?>/src/mobile.css/">
-    <script src="https://use.fontawesome.com/94cfaff88f.js"></script>
+    <script src="https://kit.fontawesome.com/381cd9e6df.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
@@ -16,25 +16,25 @@
             <h1>STRTOWEB</h1>
           </div>
           <div class="part pc">
-            <p class="link">Accueil</p>
-            <p class="link">Sites partenaires</p>
-            <p class="link">F.A.Q</p>
-            <p class="link">Nous Contacter</p>
-            <a class="btn link">Espace Client</a>
+            <p class="link">Accueil <i class="fas fa-chevron-right"></i></p>
+            <p class="link">Sites partenaires <i class="fas fa-chevron-right"></i></p>
+            <p class="link">F.A.Q <i class="fas fa-chevron-right"></i></p>
+            <p class="link">Nous Contacter <i class="fas fa-chevron-right"></i></p>
+            <a class="btn link">Espace Client <i class="fas fa-arrow-right"></i></a>
           </div>
           <div class="part mobile">
-            <i class="fa fa-bars hamburger-icon" aria-hidden="true"></i>
+            <i class="fa fa-bars hamburger-icon" style="font-size: 1.5rem;" aria-hidden="true"></i>
           </div>
         </div>
       </div>
       <div class="head">
         <div class="dropdown">
           <div class="container">
-            <p class="link">Accueil</p>
-            <p class="link">Sites partenaires</p>
-            <p class="link">F.A.Q</p>
-            <p class="link">Nous Contacter</p>
-            <a class="btn link">Espace Client</a>
+            <p class="link">Accueil <i class="fas fa-chevron-right"></i></p>
+            <p class="link">Sites partenaires <i class="fas fa-chevron-right"></i></p>
+            <p class="link">F.A.Q <i class="fas fa-chevron-right"></i></p>
+            <p class="link">Nous Contacter <i class="fas fa-chevron-right"></i></p>
+            <a class="btn link">Espace Client <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
         <div class="container">
@@ -42,7 +42,7 @@
             <h1>Créez votre projet de A à Z avec STRTOWEB</h1>
             <h2>Nous avons réaliser StrToWeb.com pour pouvoir moduler votre site internet, Autoriser les paiements en ligne, et automatiser les actions.Le site une version temporaire est ne represente pas la version finale.</h2>
             <div class="btns">
-              <a class="btn-head">Estimer mon site</a>
+              <a class="btn-head">Estimer mon site <i class="fas fa-arrow-right"></i></a>
               <a class="btn-head2">Nos sites</a>
             </div>
           </div>
@@ -65,6 +65,8 @@ $( window ).resize(function() {
 
 $(".hamburger-icon").click(function(){
   $(".dropdown").slideToggle();
+  $(".dropdown").css('display', 'flex');
+
 });
 
 </script>
