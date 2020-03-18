@@ -61,5 +61,29 @@
   .auth-form .container{
     width: 80%;
   }
+  .dashboard .content .right .infos{
+    flex-direction: column;
+  }
+  .dashboard .content .right .infos .panel-s{
+    width: 98%;
+  }
+  .dashboard .content .right .panel .parti{
+    margin-top: -2rem !important;
+  }
+  .dashboard .content .right .infos .panel-s:first-child{
+    margin-bottom: 1rem;
+  }
+  .dashboard .content .right .cards{
+    flex-direction: column;
+  }
+  .dashboard .content .right .cards .part{
+    width: 100%;
+  }
+  .dashboard .content .right .cards .part:first-child{
+    margin-bottom: 1rem;
+  }
+  .dashboard .content .left{
+    display: none;
+  }
 
 }
