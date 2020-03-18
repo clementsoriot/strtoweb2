@@ -433,6 +433,9 @@
   color: white;
   cursor: pointer;
 }
+.footer .container .top img{
+  width: 40px;
+}
 .footer .container .hr{
   width: 100%;
   height: 2px;
