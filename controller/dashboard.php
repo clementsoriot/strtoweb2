@@ -18,7 +18,7 @@
       <div class="nav">
         <div class="part">
           <h1>StrToWeb <span>FR</span></h1>
-          <i class="fas fa-bars mobile hamburger-icon"></i>
+          <i class="fas fa-bars hamburger-icon"></i>
         </div>
         <div class="part">
           <i class="far fa-bell"></i>
@@ -30,28 +30,31 @@
       <div class="content">
         <div class="left" id="part">
           <div class="part">
-            <h4>Interface</h4>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
+            <h4>Informations</h4>
+            <p><i class="fab fa-accessible-icon"></i> Tableau de bord</p>
+            <p><i class="fas fa-chart-line"></i> Analytique</p>
           </div>
           <div class="part">
-            <h4>Interface</h4>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
+            <h4>Mes sites</h4>
+            <p onclick="LeftDropDowntkt(1)"><i class="far fa-window-maximize"></i> Web-Hamadi</p>
+            <div class="in" id="1" style="display:none">
+              <p><i class="fas fa-cogs"></i> Options</p>
+              <p><i class="far fa-file-alt"></i> Factures</p>
+              <p><i class="fab fa-accessible-icon"></i> Surveillance</p>
+              <p><i class="far fa-eye"></i>Chat développeur</p>
+            </div>
+
           </div>
           <div class="part">
-            <h4>Interface</h4>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
-            <p><i class="fab fa-accessible-icon"></i> Layout</p>
+            <h4>Mes projets</h4>
+            <p onclick="LeftDropDowntkt(-1)"><i class="fas fa-plus"></i> Créer un projet</p>
+            <div class="in" id="-0" style="display:none">
+              <p><i class="fab fa-accessible-icon"></i> En parler avec nous</p>
+            </div>
+            <p onclick="LeftDropDowntkt(-1)"><i class="fab fa-accessible-icon"></i> Projet #1</p>
+            <div class="in" id="-1" style="display:none">
+              <p><i class="fab fa-accessible-icon"></i> Gérer</p>
+            </div>
           </div>
         </div>
         <div class="right">
@@ -176,9 +179,14 @@
 
 
 $(".hamburger-icon").click(function(){
-  $(".left").slideToggle();
+  $(".left").animate({
+      width: "toggle"
+    });
   $(".dropdown").css('display', 'flex');
-
 });
+
+function LeftDropDowntkt(id){
+  $('#'+ id).slideToggle();
+}
 
 </script>
