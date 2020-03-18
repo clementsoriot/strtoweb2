@@ -60,32 +60,34 @@
         </div>
         <div class="part">
           <div class="header-card">
-            <h4>Herer ehbyufh aifha</h4>
-            <h5>When you purchase this UI Kit, you get access to a robust suite of powerful tools and components to help you build your next landing page quickly and easily.</h5>
+            <h4>Creer un projet web</h4>
+            <h5>Réalisons ensemble le site qui vous fera gagner en clients/crédibilité.</h5>
           </div>
           <div class="body-card">
             <div class="row">
               <div class="paragraph">
-                <h6>Landing Pages</h6>
-                <p>We've crafted landing page examples for many popular business and product types.</p>
-                <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+                <h6>Les etapes pour mon projet</h6>
+                <p>Vous souhaitez connaître les étapes pour la création de votre premier web projet ?</p>
+                <a href="#">En savoir plus <i class="fas fa-arrow-right"></i></a>
               </div>
               <div class="paragraph">
-                <h6>Landing Pages</h6>
-                <p>We've crafted landing page examples for many popular business and product types.</p>
-                <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+                <h6>Offres temporaires</h6>
+                <p>Vous pouvez consulter vos dernières offres temporaires en cliquant en dessous.</p>
+                <a href="#">Decouvrir <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
             <div class="row">
               <div class="paragraph">
-                <h6>Landing Pages</h6>
-                <p>We've crafted landing page examples for many popular business and product types.</p>
-                <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+                <h6>Faite un devis</h6>
+                <p>Vous pouvez connaître la tranche de prix pour le quel nous pourrions réaliser votre site internet.</p>
+                <a href="#">Devis rapide <i class="fas fa-arrow-right"></i></a>
+				<br>
+				<a href="#">Devis complet <i class="fas fa-arrow-right"></i></a>
               </div>
               <div class="paragraph">
-                <h6>Landing Pages</h6>
-                <p>We've crafted landing page examples for many popular business and product types.</p>
-                <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+                <h6>Notre application</h6>
+                <p>Découvrez comment fonctionne notre application strtoweb et contrôller votre site sur le bout des doigts</p>
+                <a href="#">En savoir plus<i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -96,8 +98,8 @@
     <div class="websites">
       <div class="container">
         <div class="header-card">
-          <h4>Sites</h4>
-          <h5>When you purchase this UI Kit, you get access to a robust suite of powerful landing page demos to help you get started.</h5>
+          <h4>Nos réalisations</h4>
+          <h5>Voici les quelques projet commencé depuis mars 2020</h5>
         </div>
         <div class="content-card">
           <div class="row">
@@ -150,25 +152,25 @@
     <div class="websites" style="background:white;">
       <div class="container">
         <div class="header-card">
-          <h4>Documentation</h4>
-          <h5>When you purchase this UI Kit, you get access to a robust suite of powerful landing page demos to help you get started.</h5>
+          <h4>Informations</h4>
+          <h5>Nos statistiques sont accessible en temps réel</h5>
         </div>
         <div class="content-card">
           <div class="row">
             <div class="website">
-              <b class="big-text">213+</b>
-              <h6 class="title">Custom/Extended Components</h6>
-              <p class="subtitle">We've extended and restyled Bootstrap's default components, and built a suite of new custom components.</p>
+              <b class="big-text">3+</b>
+              <h6 class="title">Projets commencé</h6>
+              <p class="subtitle">Nombre de projets créer depuis mars 2020.</p>
             </div>
             <div class="website">
-              <b class="big-text">70+</b>
-              <h6 class="title">Custom/Extended Components</h6>
-              <p class="subtitle">We've extended and restyled Bootstrap's default components, and built a suite of new custom components.</p>
+              <b class="big-text">10+</b>
+              <h6 class="title">Sites en ligne</h6>
+              <p class="subtitle">Ils nous ont fait confiance pour gérer leur site.</p>
             </div>
             <div class="website">
-              <b class="big-text">120+</b>
-              <h6 class="title">Custom/Extended Components</h6>
-              <p class="subtitle">We've extended and restyled Bootstrap's default components, and built a suite of new custom components.</p>
+              <b class="big-text">100+</b>
+              <h6 class="title">Personnes nous font confiance</h6>
+              <p class="subtitle">Nous gérons des.</p>
             </div>
           </div>
         </div>
