@@ -3,10 +3,10 @@
     height: 600px;
   }
   .mobile{
-    display: flex;
+    display: flex !important;
   }
   .pc{
-    display: none;
+    display: none !important;
   }
   .header .nav{
     background: #1f2d41;
@@ -44,6 +44,22 @@
   .websites .container .content-card .row .website p{
     font-size: 1.4rem;
   }
-
+  .footer .container{
+    width: 80%;
+  }
+  .footer .container .top{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .container .top .col{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .auth-form .container{
+    width: 80%;
+  }
 
 }

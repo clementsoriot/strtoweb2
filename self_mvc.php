@@ -14,6 +14,9 @@ ob_start();
 
 
 $PageDisponible['home'] = root.pre.'controller'.pre.'index.php';
+$PageDisponible['login'] = root.pre.'controller'.pre.'login.php';
+$PageDisponible['transition'] = root.pre.'controller'.pre.'transition.php';
+$PageDisponible['dashboard'] = root.pre.'controller'.pre.'dashboard.php';
 $PageDisponible['404'] = root.pre.'controller'.pre.'404.php';
 
 
