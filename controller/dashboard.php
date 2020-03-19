@@ -31,143 +31,35 @@
         <div class="left" id="part">
           <div class="part">
             <h4>Informations</h4>
-            <p><i class="fab fa-accessible-icon"></i> Tableau de bord</p>
-            <p><i class="fas fa-chart-line"></i> Analytique</p>
+            <p onclick=""><i class="fab fa-accessible-icon"></i> Tableau de bord</p>
+            <p><i class="fas fa-chart-line"></i> Analytiques</p>
           </div>
           <div class="part">
             <h4>Mes sites</h4>
             <p onclick="LeftDropDowntkt(1)"><i class="far fa-window-maximize"></i> Web-Hamadi</p>
             <div class="in" id="1" style="display:none">
-              <p><i class="fas fa-cogs"></i> Options</p>
+              <p><i class="fas fa-cogs"></i> Gérer</p>
               <p><i class="far fa-file-alt"></i> Factures</p>
-              <p><i class="fab fa-accessible-icon"></i> Surveillance</p>
-              <p><i class="far fa-eye"></i>Chat développeur</p>
+              <p><i class="far fa-eye"></i> Surveillance</p>
+              <p><i class="far fa-comments"></i>Chat développeur</p>
             </div>
 
           </div>
           <div class="part">
             <h4>Mes projets</h4>
-            <p onclick="LeftDropDowntkt(-1)"><i class="fas fa-plus"></i> Créer un projet</p>
-            <div class="in" id="-0" style="display:none">
+            <p onclick="LeftDropDowntkt(0)"><i class="fas fa-plus"></i> Créer un projet</p>
+            <div class="in" id="0" style="display:none">
               <p><i class="fab fa-accessible-icon"></i> En parler avec nous</p>
             </div>
-            <p onclick="LeftDropDowntkt(-1)"><i class="fab fa-accessible-icon"></i> Projet #1</p>
+            <p onclick="LeftDropDowntkt(-1)"><i class="fas fa-file-alt"></i> Projet #1</p>
             <div class="in" id="-1" style="display:none">
-              <p><i class="fab fa-accessible-icon"></i> Gérer</p>
+              <p><i class="fas fa-cogs"></i> Gérer</p>
             </div>
           </div>
         </div>
-        <div class="right">
-          <div class="banner">
-            <h1><i class="fab fa-accessible-icon"></i> Dashboard</h1>
-            <p>Example dashboard overview and content summary</p>
-          </div>
-          <div class="panel">
-            <div class="parti">
-              <div class="infos">
-                <div class="panel-s">
-                  <div class="chart">
-                    <p>Nombre de visiteurs</p>
-                    <div class="chart-div">
-                      <canvas style="width:100%;" height="300" id="myChart"></canvas>
-                      <script>
-                      var ctx = document.getElementById('myChart');
-
-                      new Chart(ctx, {
-                      type: 'line',
-                      data: {
-                        labels: ['Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi','Dimanche'],
-                        datasets: [{
-                            data: [10,50,110,70,213,500,420,550],
-                            label: "Visiteurs",
-                            borderColor: "#0061f2",
-                            fill: true
-                          }
-                        ]
-                      },
-                      options: {
-                        legend: {
-                          display: false,
-                        },
-                      }
-                    });
-
-                      </script>
-                    </div>
-                  </div>
-                </div>
-                <div class="panel-s">
-                  <div class="chart">
-                    <p>Origine des visiteurs</p>
-                    <div class="chart-div">
-                      <canvas style="width:100%;" height="300" id="myChart2"></canvas>
-                      <script type="text/javascript">
-                      var ctx = document.getElementById('myChart2');
-                      new Chart(ctx, {
-                          type: 'bar',
-                          data: {
-                            labels: ["Recherches google", "Pubs StrToWeb", "Inconnus"],
-                            datasets: [
-                              {
-                                label: "Visiteurs",
-                                backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
-                                data: [500,725,213]
-                              }
-                            ]
-                          },
-                          options: {
-                            legend: { display: false },
-                            title: {
-                              display: false,
-                            }
-                          }
-                        });
-                      </script>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <div class="cards">
-                <div class="part">
-                  <div class="card">
-                    <div class="card-header">
-                      <p>Primary Card</p>
-                    </div>
-                    <div class="card-body">
-                      <a href="">View Details</a>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header">
-                      <p>Primary Card</p>
-                    </div>
-                    <div class="card-body">
-                      <a href="">View Details</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="part">
-                  <div class="card">
-                    <div class="card-header">
-                      <p>Primary Card</p>
-                    </div>
-                    <div class="card-body">
-                      <a href="">View Details</a>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header">
-                      <p>Primary Card</p>
-                    </div>
-                    <div class="card-body">
-                      <a href="">View Details</a>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
+        <div id="right" class="right">
+          <?php require root.pre.'view/dashboard/'.pre.'surveillance.php'; ?>
+        </div>
           </div>
         </div>
       </div>
@@ -188,5 +80,6 @@ $(".hamburger-icon").click(function(){
 function LeftDropDowntkt(id){
   $('#'+ id).slideToggle();
 }
+
 
 </script>

@@ -646,7 +646,7 @@
   width: 100%;
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   overflow-y: auto;
   overflow-x: hidden;
@@ -698,11 +698,12 @@
   display: flex;
   justify-content: flex-start;align-items: center;
   flex-direction: column;
+  background: #f2f4f9;
 }
 .dashboard .content .right .banner{
   width: 100%;
   color: white;
-  padding: 3rem 2rem;
+  padding: 3rem 2rem 6rem 2rem;
   height: 250px;
   background: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
 }
@@ -718,12 +719,17 @@
   color: hsla(0,0%,100%,.5);
   font-size: 1.3rem;
 }
+.dashboard .content .right .banner h1 span{
+  font-size: 0.8rem;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  padding: 0 0.2rem;
+}
 .dashboard .content .right .panel{
   width: 100%;
   display: flex;justify-content: flex-start;align-items: center;
   flex-direction: column;
-  background: #f2f4f9;
-  flex: 1;
 }
 .dashboard .content .right .panel .parti{
   margin-top: -6rem !important;
@@ -736,14 +742,16 @@
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
 }
 .dashboard .content .right .infos .panel-s{
   width: 48%;
   background: white;
   border-radius: 5px;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;align-items: center;
+  flex-direction: column;
 }
 .dashboard .content .right .infos .panel-s .chart{
   display: flex;
@@ -756,7 +764,13 @@
 .dashboard .content .right .infos .panel-s .chart .chart-div{
   padding: 1rem;
   width: 100%;
+  flex:1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
+
 .dashboard .content .right .infos .panel-s .chart p{
   color: #0061f2;
   width: 100%;
@@ -764,12 +778,59 @@
   background: #f7f7f7;
   border-radius: 5px;
 }
+.dashboard .content .right .infos .panel-s .chart .chart-div p{
+  background: white;
+  padding: 0rem 0rem;
+  color: rgba(0,0,0,0.7);
+  margin: 0 1rem;
+  text-align: justify;
+}
+.dashboard .content .right .infos .panel-s .chart .chart-div i{
+  padding: 0.5rem 0;
+}
+.dashboard .content .right .infos .panel-s .chart .chart-div img{
+  width: 40px;
+  border-radius: 100%;
+}
+.dashboard .content .right .infos .panel-s .chart form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 100%;
+  padding: 1rem;
+  background: #f7f7f7;
+  border-radius: 5px;
+}
+.dashboard .content .right .infos .panel-s .chart form input{
+  flex: 1;
+  background: #f7f7f7;
+  border: none;
+  outline: none;
+}
+.dashboard .content .right .infos .panel-s .chart form button{
+  background: #f7f7f7;
+  border: none;
+  outline: none;
+  background: #0061f2;
+  color:white;
+  padding: 0.5rem 1rem;
+}
+.dashboard .content .right .infos .panel-s .chart .chart-div .message{
+  display: flex;
+  justify-content: center;align-items: flex-start;
+  border-bottom: 1px solid lightgrey;
+  padding: 0.5rem 0;
+}
+.dashboard .content .right .infos .panel-s .chart .chart-div .message.from{
+  flex-direction: row-reverse;
+}
+
 
 .dashboard .content .right .cards{
   width: 100%;
   display: flex;
   justify-content: space-evenly;align-items: center;
-  margin: 1rem 0;
 
 }
 .dashboard .content .right .cards .part{
@@ -795,4 +856,21 @@
   background: #005eea !important;
   border-radius: 5px;
   padding: 1rem;
+}
+.dashboard .content .right .panel .parti table {
+  border-collapse: collapse;
+  width: 98%;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+
+}
+
+.dashboard .content .right .panel .parti td, th {
+  text-align: left;
+  padding: 0.8rem;
+  border: 1px solid lightgrey;
+}
+.dashboard .content .right .panel .parti th{
+color: #0061f2;
 }
