@@ -15,12 +15,12 @@
     <div class="left" id="part">
       <div class="part">
         <h4>Informations</h4>
-        <p onclick=""><i class="fab fa-accessible-icon"></i> Tableau de bord</p>
+        <p onclick=""><i class="far fa-heart-rate"></i> Tableau de bord</p>
         <p><i class="fas fa-chart-line"></i> Analytiques</p>
       </div>
       <div class="part">
         <h4>Mes sites</h4>
-        <p onclick="LeftDropDowntkt(1)"><i class="far fa-window-maximize"></i> Web-Hamadi</p>
+        <p onclick="LeftDropDowntkt(1)"><i class="far fa-browser"></i> Web-Hamadi</p>
         <div class="in" id="1" style="display:none">
           <p><i class="fas fa-cogs"></i> Gérer</p>
           <p><i class="far fa-file-alt"></i> Factures</p>

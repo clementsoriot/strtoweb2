@@ -1,5 +1,5 @@
   <div class="banner">
-    <h1><i class="fab fa-accessible-icon"></i> Dashboard</h1>
+    <h1><i class="far fa-heart-rate"></i> Dashboard</h1>
     <p>Example dashboard overview and content summary</p>
   </div>
   <div class="panel">
