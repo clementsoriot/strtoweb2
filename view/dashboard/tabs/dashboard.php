@@ -38,7 +38,7 @@
         </div>
         <div class="panel-s">
           <div class="chart">
-            <p>Origine des visiteurs</p>
+            <p>Travail des développeurs</p>
             <div class="chart-div">
               <canvas style="width:100%;" height="300" id="myChart2"></canvas>
               <script type="text/javascript">
@@ -46,12 +46,12 @@
               new Chart(ctx, {
                   type: 'bar',
                   data: {
-                    labels: ["Recherches google", "Pubs StrToWeb", "Inconnus"],
+                    labels: ["Gaya", "Clément", "Yanis"],
                     datasets: [
                       {
-                        label: "Visiteurs",
+                        label: "Heures",
                         backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
-                        data: [500,725,213]
+                        data: [10,20,5]
                       }
                     ]
                   },
