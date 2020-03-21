@@ -785,11 +785,11 @@
 .dashboard .content .right .infos .panel-s .chart .chart-div{
   padding: 1rem;
   width: 100%;
-  flex:1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  height: 280px;
 }
 
 .dashboard .content .right .infos .panel-s .chart p{
@@ -851,17 +851,20 @@
 .dashboard .content .right .cards{
   width: 100%;
   display: flex;
-  justify-content: space-evenly;align-items: center;
+  justify-content: space-evenly;
 
 }
 .dashboard .content .right .cards .part{
   width: 48%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .dashboard .content .right .cards .part .card{
   width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background: #0061f2;
   border-radius: 5px;
   color: white;
@@ -871,8 +874,10 @@
   width: 100%;
   border-radius: 5px;
   padding: 1rem;
+  flex:1;
 }
 .dashboard .content .right .cards .part .card .card-body{
+
   width: 100%;
   background: #005eea !important;
   border-radius: 5px;

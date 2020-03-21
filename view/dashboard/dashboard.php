@@ -17,6 +17,7 @@
         <h4>Informations</h4>
         <p onclick=""><i class="far fa-heart-rate"></i> Tableau de bord</p>
         <p><i class="fas fa-chart-line"></i> Analytiques</p>
+        <p><i class="far fa-wallet"></i> Porte monnaie</p>
       </div>
       <div class="part">
         <h4>Mes sites</h4>
@@ -42,7 +43,7 @@
       </div>
     </div>
     <div id="right" class="right">
-      <?php require root.pre.'view/dashboard/tabs/'.pre.'dashboard.php'; ?>
+      <?php require root.pre.'view/dashboard/tabs/'.pre.'surveillance.php'; ?>
     </div>
       </div>
     </div>

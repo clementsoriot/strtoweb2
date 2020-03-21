@@ -1,5 +1,5 @@
 <div class="banner">
-  <h1><i class="far fa-eye"></i> Surveillance</h1>
+  <h1><i class="far fa-eye"></i> Surveillance <span>WEB-HAMADI.FR</span></h1>
   <p>Example dashboard overview and content summary</p>
 </div>
 <div class="panel">
@@ -48,6 +48,7 @@
               <img src="https://images.unsplash.com/photo-1520719627573-5e2c1a6610f0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=60&h=60&fit=crop&ixid=eyJhcHBfaWQiOjF9" alt="">
               <p>lolo  ol oz ia iafiaifioaf aj oiajoaojaofoajfo  ajfoafjoiaj fafioiejfie  fefea ayugufgz zohjfiozh zoifhizhf ziohfioz zoizjhzoe zzzzz ziii i ii eruur rr rgujrg eg egiehog eggegoi egehgoeoi hge oehgheoiihi hi ehgieih ie</p>
             </div>
+
 
           </div>
           <form class="" method="post">

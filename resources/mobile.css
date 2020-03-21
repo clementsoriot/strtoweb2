@@ -85,5 +85,16 @@
   .dashboard .content .left{
     display: none;
   }
+  .dashboard .content .right .cards .part{
+    flex-direction: column;
+    width: 98%;
+  }
+  .dashboard .content .right .cards .part .card {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .dashboard .content .right .cards .part{
+    width: 100%;
+  }
 
 }

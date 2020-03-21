@@ -72,36 +72,44 @@
         <div class="part">
           <div class="card">
             <div class="card-header">
-              <p>Primary Card</p>
+              <p><b>Informations personnelles</b></p>
+              <p>Clément SORIOT</p>
+
+              <p>bouffeur2doigts@gmail.com</p>
             </div>
             <div class="card-body">
-              <a href="">View Details</a>
+              <a href="">Modifier les informations</a>
             </div>
           </div>
           <div class="card">
             <div class="card-header">
-              <p>Primary Card</p>
+              <p><b>Moyens de paiement</b></p>
+              <p><i class="fas fa-credit-card"></i> 0213 ***** ***** *****</p>
             </div>
             <div class="card-body">
-              <a href="">View Details</a>
+              <a href="">Modifier les moyens de paiement</a>
             </div>
           </div>
         </div>
         <div class="part">
           <div class="card">
             <div class="card-header">
-              <p>Primary Card</p>
+              <p><b>Factures</b></p>
+              <p>Hebergement: 50€</p>
+              <p>Nom de domaine: 12€</p>
             </div>
             <div class="card-body">
-              <a href="">View Details</a>
+              <a href="">Voir toutes les factures</a>
             </div>
           </div>
           <div class="card">
             <div class="card-header">
-              <p>Primary Card</p>
+              <p><b>Porte monnaie | 30€</b></p>
+              <p>Reçu #518741: 2€</p>
+              <p>Reçu #518740: 2€</p>
             </div>
             <div class="card-body">
-              <a href="">View Details</a>
+              <a href="">Recharger mon porte monnaie</a>
             </div>
           </div>
         </div>
