@@ -55,5 +55,9 @@
 function LeftDropDowntkt(id){
 $('#'+ id).slideToggle();
 }
-
+$(".hamburger-icon").click(function(){
+  $(".left").animate({
+      width: "toggle"
+    });
+});
 </script>
