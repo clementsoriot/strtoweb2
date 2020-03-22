@@ -38,7 +38,7 @@
         </div>
         <div class="panel-s">
           <div class="chart">
-            <p>Travail des développeurs</p>
+            <p>Nombre de visiteurs sur les différents sites</p>
             <div class="chart-div">
               <canvas style="width:100%;" height="300" id="myChart2"></canvas>
               <script type="text/javascript">
@@ -46,12 +46,12 @@
               new Chart(ctx, {
                   type: 'bar',
                   data: {
-                    labels: ["Gaya", "Clément", "Yanis"],
+                    labels: ["Web-Hamadi", "StrToWeb", "pitichat.fr"],
                     datasets: [
                       {
-                        label: "Heures",
+                        label: "Visiteurs",
                         backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
-                        data: [10,20,5]
+                        data: [213,10,1]
                       }
                     ]
                   },
