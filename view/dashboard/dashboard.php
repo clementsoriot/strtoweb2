@@ -29,21 +29,21 @@
           <p><i class="far fa-comments"></i>Chat développeur</p>
         </div>
 
+
       </div>
       <div class="part">
         <h4>Mes projets</h4>
-        <p onclick="LeftDropDowntkt(0)"><i class="fas fa-plus"></i> Créer un projet</p>
-        <div class="in" id="0" style="display:none">
-          <p><i class="fab fa-accessible-icon"></i> En parler avec nous</p>
-        </div>
-        <p onclick="LeftDropDowntkt(-1)"><i class="fas fa-file-alt"></i> Projet #1</p>
+        <p onclick="LeftDropDowntkt(-1)"><i class="fas fa-file-alt"></i> APIS</p>
         <div class="in" id="-1" style="display:none">
-          <p><i class="fas fa-cogs"></i> Gérer</p>
+          <p><i class="fas fa-cogs"></i> API #1</p>
+          <p><i class="fas fa-cogs"></i> API #1</p>
+          <p><i class="fas fa-cogs"></i> API #1</p>
+          <p><i class="fas fa-cogs"></i> API #1</p>
         </div>
       </div>
     </div>
     <div id="right" class="right">
-      <?php require root.pre.'view/dashboard/tabs/'.pre.'surveillance.php'; ?>
+      <?php require root.pre.'view/dashboard/tabs/'.pre.'dashboard.php'; ?>
     </div>
       </div>
     </div>

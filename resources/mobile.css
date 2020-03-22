@@ -63,6 +63,7 @@
   }
   .dashboard .content .right .infos{
     flex-direction: column;
+    align-items: center;
   }
   .dashboard .content .right .infos .panel-s{
     width: 98%;
@@ -95,6 +96,15 @@
   }
   .dashboard .content .right .cards .part{
     width: 100%;
+  }
+  .dashboard .content .right .infos .form input{
+    width: 300px;
+  }
+  .dashboard .content .right .infos .form select{
+    width: 300px;
+  }
+  .dashboard .content .right .infos .form button{
+    width: 300px;
   }
 
 }
