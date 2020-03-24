@@ -836,7 +836,13 @@ padding: 1rem;
   flex-direction: column;
   flex:1;
 }
-
+.dashboard .content .right .infos .panel-s .chart .chart-div *{
+  text-align: left;
+  width: 100%;
+}
+.dashboard .content .right .infos .panel-s .chart .chart-div ul li{
+  margin-left: 50px;
+}
 .dashboard .content .right .infos .panel-s .chart p{
   color: #0061f2;
   width: 100%;
