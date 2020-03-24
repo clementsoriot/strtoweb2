@@ -1,5 +1,5 @@
 <div class="banner">
-  <h1><i class="far fa-eye"></i> Surveillance <span>WEB-HAMADI.FR</span></h1>
+  <h1><i class="far fa-eye"></i> Administration <span>WEB-HAMADI.FR</span></h1>
   <p>Example dashboard overview and content summary</p>
 </div>
 <div class="panel">

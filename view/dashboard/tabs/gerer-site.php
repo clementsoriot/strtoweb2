@@ -5,50 +5,53 @@
 <div class="panel">
   <div class="parti">
     <div class="infos">
-      <table>
-        <tr>
-          <th>Option</th>
-          <th>Expire le</th>
-          <th>Commander</th>
-          <th>État</th>
-        </tr>
-        <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
-          <td><i class="fas fa-times"></i></td>
-        </tr>
-        <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
-          <td><i class="fas fa-check"></i></td>
-        </tr>
-        <tr>
-          <td>Ernst Handel</td>
-          <td>Roland Mendel</td>
-          <td>Austria</td>
-          <td><i class="fas fa-times"></i></td>
-        </tr>
-        <tr>
-          <td>Island Trading</td>
-          <td>Helen Bennett</td>
-          <td>Austria</td>
-          <td><i class="fas fa-times"></i></td>
-        </tr>
-        <tr>
-          <td>Laughing Bacchus Winecellars</td>
-          <td>Yoshi Tannamuri</td>
-          <td>Austria</td>
-          <td><i class="fas fa-check"></i></td>
-        </tr>
-        <tr>
-          <td>Magazzini Alimentari Riuniti</td>
-          <td>Giovanni Rovelli</td>
-          <td>Austria</td>
-          <td><i class="fas fa-check"></i></td>
-        </tr>
-      </table>
+      <div class="cards">
+        <div class="part">
+          <div class="card whitecard">
+            <div class="card-header">
+              <img src="https://themes.startbootstrap.com/sb-admin-pro/assets/img/drawkit/color/drawkit-charts-and-graphs.svg" class="imdutufu" alt="">
+              <p>Herbergement</p>
+              <span>Ce qui permet à votre de site d'avoir une maison</span>
+            </div>
+            <div class="card-body">
+              <a href="">Acheter +1 mois | 30$</a>
+            </div>
+          </div>
+          <div class="card whitecard">
+            <div class="card-header">
+              <img src="https://themes.startbootstrap.com/sb-admin-pro/assets/img/drawkit/color/drawkit-charts-and-graphs.svg" class="imdutufu" alt="">
+              <p>Herbergement</p>
+              <span>Ce qui permet à votre de site d'avoir une maison</span>
+            </div>
+            <div class="card-body">
+              <a href="">Acheter +1 mois | 30$</a>
+            </div>
+          </div>
+        </div>
+        <div class="part">
+          <div class="card whitecard">
+            <div class="card-header">
+              <img src="https://themes.startbootstrap.com/sb-admin-pro/assets/img/drawkit/color/drawkit-charts-and-graphs.svg" class="imdutufu" alt="">
+              <p>Herbergement</p>
+              <span>Ce qui permet à votre de site d'avoir une maison</span>
+            </div>
+            <div class="card-body">
+              <a href="">Acheter +1 mois | 30$</a>
+            </div>
+          </div>
+          <div class="card whitecard">
+            <div class="card-header">
+              <img src="https://themes.startbootstrap.com/sb-admin-pro/assets/img/drawkit/color/drawkit-charts-and-graphs.svg" class="imdutufu" alt="">
+              <p>Herbergement</p>
+              <span>Ce qui permet à votre de site d'avoir une maison</span>
+            </div>
+            <div class="card-body">
+              <a href="">Acheter +1 mois | 30$</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
 </div>
 </div>

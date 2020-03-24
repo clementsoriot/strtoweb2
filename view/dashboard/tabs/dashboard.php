@@ -5,7 +5,10 @@
   <div class="panel">
     <div class="parti">
       <div class="infos">
-        <div class="panel-s">
+        <div class="panel-s grey">
+          <div class="disabled">
+            <a href="">Envie de savoir combien de visiteur il y a au total ? Cliquez ici</a>
+          </div>
           <div class="chart">
             <p>Nombre de visiteurs</p>
             <div class="chart-div">
@@ -35,8 +38,12 @@
               </script>
             </div>
           </div>
+
         </div>
-        <div class="panel-s">
+        <div class="panel-s grey">
+          <div class="disabled">
+            <a href="">Envie de savoir combien de visiteur il y a sur vos différents site ? Cliquez ici</a>
+          </div>
           <div class="chart">
             <p>Nombre de visiteurs sur les différents sites</p>
             <div class="chart-div">

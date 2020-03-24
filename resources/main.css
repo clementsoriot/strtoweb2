@@ -928,11 +928,42 @@ padding: 1rem;
   flex:1;
 }
 .dashboard .content .right .cards .part .card .card-body{
-
   width: 100%;
-  background: #005eea !important;
+  background: #005eea;
   border-radius: 5px;
+}
+
+
+.dashboard .content .right .cards .part .whitecard{
+  background: white;
+  color:black;
+}
+.dashboard .content .right .cards .part .whitecard .card-header{
+padding: 0;
+}
+.dashboard .content .right .cards .part .whitecard .card-header p{
+  color: #0061f2;
+  padding: 0.2rem 1rem;
+  font-weight: bold;font-size: 1.2rem;
+}
+.dashboard .content .right .cards .part .whitecard .card-header span{
+  padding: 0.2rem 1rem;
+  margin-bottom: 1rem;
+}
+.dashboard .content .right .cards .part .whitecard .card-header .imdutufu{
+  width: 100%;
+  object-fit: cover;
+}
+.dashboard .content .right .cards .part .whitecard .card-body{
+  background: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
   padding: 1rem;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;align-items: center;
+}
+.dashboard .content .right .cards .part .whitecard .card-body a{
+  text-decoration:none;
+  color: white;
 }
 .dashboard .content .right .panel .parti table {
   border-collapse: collapse;
@@ -953,4 +984,24 @@ color: #0061f2;
 .dashboard .content .right .panel .parti .mailer td {
   display: flex;
   justify-content: space-between;
+}
+.dashboard .content .right .panel .parti .infos .panel-s{
+  position: relative;
+}
+.dashboard .content .right .panel .parti .infos .disabled{
+  content: 'L\'option n\'est pas prise';
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  color: white;
+  display: flex;
+  justify-content: center;align-items: center;
+  text-align: center;
+  left: 0;right: 0;bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.dashboard .content .right .panel .parti .infos .grey{
+  filter: grayscale(100%);
 }
