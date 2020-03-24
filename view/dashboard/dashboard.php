@@ -27,7 +27,7 @@
           <p><i class="fas fa-cogs"></i> Gérer</p>
           <p><i class="far fa-file-alt"></i> Factures</p>
           <p><i class="far fa-eye"></i> Surveillance</p>
-          <p><i class="far fa-comments"></i>Chat développeur</p>
+          <p><i class="far fa-comments"></i> Chat développeur</p>
         </div>
 
 
@@ -44,7 +44,7 @@
       </div>
     </div>
     <div id="right" class="right">
-      <?php require root.pre.'view/dashboard/tabs/'.pre.'articles.php'; ?>
+      <?php require root.pre.'view/dashboard/tabs/'.pre.'dashboard.php'; ?>
     </div>
       </div>
     </div>

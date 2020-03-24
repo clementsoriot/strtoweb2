@@ -940,7 +940,6 @@ padding: 1rem;
   padding: 1rem;
   background: white;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-
 }
 
 .dashboard .content .right .panel .parti td, th {
@@ -950,4 +949,8 @@ padding: 1rem;
 }
 .dashboard .content .right .panel .parti th{
 color: #0061f2;
+}
+.dashboard .content .right .panel .parti .mailer td {
+  display: flex;
+  justify-content: space-between;
 }
