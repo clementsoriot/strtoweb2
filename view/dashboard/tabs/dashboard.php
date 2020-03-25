@@ -12,7 +12,7 @@
           <div class="chart">
             <p>Nombre de visiteurs</p>
             <div class="chart-div">
-              <canvas style="width:100%;" height="300" id="myChart"></canvas>
+              <canvas style="width:100%;"  height="300" id="myChart"></canvas>
               <script>
               var ctx = document.getElementById('myChart');
 

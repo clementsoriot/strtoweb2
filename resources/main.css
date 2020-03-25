@@ -714,14 +714,14 @@
   cursor: pointer;
 }
 .dashboard .content .right{
-  flex: 1;
-  height: 100%;
   display: flex;
   justify-content: flex-start;align-items: center;
   flex-direction: column;
-  background: #f2f4f9;
+  height: 100%;
+  width: 100%;
 }
 .dashboard .content .right .banner{
+
   width: 100%;
   color: white;
   padding: 3rem 2rem 6rem 2rem;
@@ -748,12 +748,13 @@
   padding: 0 0.2rem;
 }
 .dashboard .content .right .panel{
+  transform: translateY(-10vh);
+  height: 250px;
   width: 100%;
   display: flex;justify-content: flex-start;align-items: center;
   flex-direction: column;
 }
 .dashboard .content .right .panel .parti{
-  margin-top: -6rem !important;
   display: flex;
   justify-content: center;align-items: center;
   flex-direction: column;
@@ -903,7 +904,7 @@ padding: 1rem;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-
+  margin-bottom: 1.5rem;
 }
 .dashboard .content .right .cards .part{
   width: 48%;
@@ -911,7 +912,7 @@ padding: 1rem;
   justify-content: space-between;
 }
 .dashboard .content .right .cards .part .card{
-  width: 49%;
+  width: 48.5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -919,6 +920,7 @@ padding: 1rem;
   background: #0061f2;
   border-radius: 5px;
   color: white;
+
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 .dashboard .content .right .cards .part .card .card-header{
@@ -931,6 +933,7 @@ padding: 1rem;
   width: 100%;
   background: #005eea;
   border-radius: 5px;
+  padding: 1rem;
 }
 
 
@@ -940,15 +943,18 @@ padding: 1rem;
 }
 .dashboard .content .right .cards .part .whitecard .card-header{
 padding: 0;
+display: flex;
+flex-direction: column;
 }
 .dashboard .content .right .cards .part .whitecard .card-header p{
+  width: 100%;
   color: #0061f2;
   padding: 0.2rem 1rem;
   font-weight: bold;font-size: 1.2rem;
 }
 .dashboard .content .right .cards .part .whitecard .card-header span{
   padding: 0.2rem 1rem;
-  margin-bottom: 1rem;
+  width: 100%;
 }
 .dashboard .content .right .cards .part .whitecard .card-header .imdutufu{
   width: 100%;
@@ -958,7 +964,7 @@ padding: 0;
   background: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
   padding: 1rem;
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
   justify-content: center;align-items: center;
 }
 .dashboard .content .right .cards .part .whitecard .card-body a{

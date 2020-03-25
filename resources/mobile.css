@@ -69,7 +69,7 @@
     width: 98%;
   }
   .dashboard .content .right .panel .parti{
-    margin-top: -4rem !important;
+    transform: translateY(-5vh);
   }
   .dashboard .content .right .infos .panel-s:first-child{
     margin-bottom: 1rem;
