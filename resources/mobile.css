@@ -106,5 +106,14 @@
   .dashboard .content .right .infos .form button{
     width: 300px;
   }
+  .dashboard .content .right .panel .parti .infos .account  input{
+    width: 300px;
+  }
+  .dashboard .content .right .panel .parti .infos .account  button{
+    width: 300px;
+  }
+  .dashboard .content .right .panel .parti .infos .list .account .img-pp{
+    width: 300px;
+  }
 
 }

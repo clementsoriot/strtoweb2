@@ -43,7 +43,7 @@
       </div>
     </div>
     <div id="right" class="right">
-      <?php require root.pre.'view/dashboard/tabs/'.pre.'dashboard.php'; ?>
+      <?php require root.pre.'view/dashboard/tabs/'.pre.'profile.php'; ?>
     </div>
       </div>
     </div>
