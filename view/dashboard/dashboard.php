@@ -31,19 +31,10 @@
 
 
       </div>
-      <div class="part">
-        <h4>Services</h4>
-        <p onclick="LeftDropDowntkt(-1)"><i class="fas fa-file-alt"></i> APIS</p>
-        <div class="in" id="-1" style="display:none">
-          <p><i class="fas fa-cogs"></i> API #1</p>
-          <p><i class="fas fa-cogs"></i> API #1</p>
-          <p><i class="fas fa-cogs"></i> API #1</p>
-          <p><i class="fas fa-cogs"></i> API #1</p>
-        </div>
-      </div>
+
     </div>
     <div id="right" class="right">
-      <?php require root.pre.'view/dashboard/tabs/'.pre.'profile.php'; ?>
+      <?php require root.pre.'view/dashboard/tabs/'.pre.'dashboard.php'; ?>
     </div>
       </div>
     </div>
@@ -61,4 +52,7 @@ $(".hamburger-icon").click(function(){
       width: "toggle"
     });
 });
+
+
+
 </script>

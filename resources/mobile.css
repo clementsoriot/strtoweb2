@@ -115,5 +115,9 @@
   .dashboard .content .right .panel .parti .infos .list .account .img-pp{
     width: 300px;
   }
+  .dashboard .modal-content {
+    width: 90%;
+  }
+
 
 }
