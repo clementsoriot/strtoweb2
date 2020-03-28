@@ -23,25 +23,16 @@ $PageDisponible['404'] = root.pre.'controller'.pre.'404.php';
 // Insert your Dependances here
 require root.pre.'model'.pre.'metachanger.php';
 require root.pre.'model'.pre.'database.php';
-require root.pre.'model'.pre.'mail.php';
+require root.pre.'model'.pre.'user.php';
 require 'ClassMvc.php';
 
 $meta=new Meta;
 $db1=new Database('localhost','root','','test');
-//$m = new M('test@h4sh.fr','Test1@ac');
-//echo $m->mail()['message'];
-//print_r($m->listmail());
-
+$user = new User;
 // Class Mvc
 $ClassMvc=new Systeme\mvc;
 require $ClassMvc->RequireController;
 
-/*****************************************************/
-/* Systeme de remplacement de mot :
-/* @ $WordToReplace['mot'] = 'Nouveau text';
-/* Dans une class:
-/* @ $GLOBALS['WordToReplace']['mot'] = 'Nouveau text';
-/*****************************************************/
 $GetResultCode=ob_get_clean();
 if(isset($WordToReplace)):
 	if(is_array($WordToReplace)):
