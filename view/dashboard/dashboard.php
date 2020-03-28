@@ -34,7 +34,7 @@
 
     </div>
     <div id="right" class="right">
-      <?php require root.pre.'view/dashboard/tabs/'.pre.'dashboard.php'; ?>
+      <?php require root.pre.'view/dashboard/tabs/'.pre.'boutique.php'; ?>
     </div>
       </div>
     </div>
