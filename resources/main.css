@@ -48,10 +48,12 @@
   transition: 250ms color;
   display: flex;
   justify-content: center;align-items: center;
+  text-decoration: none;
 }
 .header .nav .part .link:hover{
   color: white;
   cursor: pointer;
+  text-decoration: none;
 }
 .header .nav .part a.btn{
   color: white !important;
@@ -273,7 +275,12 @@
 }
 .about .container .part .body-card .row .paragraph{
   flex: 1;
-  margin: 0.5rem 0;
+}
+.about .container .part .body-card .row .paragraph:first-child{
+  margin-right: .5rem;
+}
+.about .container .part .body-card .row .paragraph:last-child{
+  margin-left: .5rem;
 }
 .about .container .part .body-card .row h6{
   font-size: 1.2rem;
