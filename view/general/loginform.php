@@ -10,7 +10,7 @@
         <input type="text" placeholder="Adresse mail" name="login[user]">
         <input type="text" placeholder="Mot de passe" name="login[pass]">
         <button type="submit" name="button">Nike zebi</button>
-        <p class="error" style="<?php if(!$user->auth): echo 'display:none;'; endif;?>"><?= $user->auth ?></p>
+        <p class="error" style="<?php if(!$user->err): echo 'display:none;'; endif;?>"><?= $user->err ?></p>
 
         <a href="#">J'ai oublié mon mot de passe</a>
 
