@@ -2,7 +2,7 @@
 
 class User{
 	public $auth;
-	public $err="None";
+	public $err=false;
 	
 	public function __construct(){
 		
@@ -17,8 +17,8 @@ class User{
 		
 		if(isset($_POST['login'])):
 		
-			if(!isset($_POST['login']['user'])): $this->err = "Nom d'utilisateur non indiqué"; return; endif;
-			if(!isset($_POST['login']['pass'])): $this->err = "Nom d'utilisateur non indiqué"; return; endif;
+			if(!isset($_POST['login']['user'][0])): $this->err = "Nom d'utilisateur non indiqué"; return; endif;
+			if(!isset($_POST['login']['pass'][0])): $this->err = "Nom d'utilisateur non indiqué"; return; endif;
 		
 		endif;
 		
