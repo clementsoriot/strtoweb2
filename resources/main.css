@@ -706,7 +706,7 @@
   font-size: 0.9rem;
   margin-bottom: 1rem;
 }
-.dashboard .content .left .part p{
+.dashboard .content .left .part a, .dashboard .content .left .part p{
   color: black;
   transition: 250ms color;
   font-size: 1rem;
@@ -716,9 +716,10 @@
   width: 25px;
   color: #a7aeb8;
 }
-.dashboard .content .left .part p:hover{
+.dashboard .content .left .part a:hover, .dashboard .content .left .part p:hover{
   color: #0061f2;
   cursor: pointer;
+  text-decoration: none;
 }
 .dashboard .content .right{
   display: flex;
