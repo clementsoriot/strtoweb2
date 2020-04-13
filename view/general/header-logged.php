@@ -9,8 +9,9 @@
         <a  href="<?= siteurl ?>/nos-partenaires/" class="link">Sites partenaires <i class="fas fa-chevron-right"></i></a>
         <a  href="<?= siteurl ?>/vos-questions/" class="link">F.A.Q <i class="fas fa-chevron-right"></i></a>
         <a  href="<?= siteurl ?>/contactez-nous/" class="link">Nous Contacter <i class="fas fa-chevron-right"></i></a>
+        <a href="<?= siteurl ?>/action/logout/true/" class="btn">Deconnexion <i class="fas fa-arrow-right"></i></a>
         <a href="<?= siteurl ?>/tableau-de-bord/" class="btn link">Tableau de bord <i class="fas fa-arrow-right"></i></a>
-        <a href="<?= siteurl ?>/action/logout/true/" class="btn link">Deconnexion <i class="fas fa-arrow-right"></i></a>
+
       </div>
       <div class="part mobile">
         <i class="fa fa-bars hamburger-icon" style="font-size: 1.5rem;" aria-hidden="true"></i>
