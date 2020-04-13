@@ -14,10 +14,10 @@
     <div class="left" id="part">
       <div class="part">
         <h4>Informations</h4>
-        <p onclick=""><i class="far fa-heart-rate"></i> Tableau de bord</p>
-        <p><i class="fas fa-chart-line"></i> Analytiques</p>
-        <p><i class="far fa-wallet"></i> Porte monnaie</p>
-        <p><i class="fal fa-newspaper"></i> Articles</p>
+        <a href="<?= siteurl ?>/tableau-de-bord/category/main"><i class="far fa-heart-rate"></i> Tableau de bord</a>
+        <a href="<?= siteurl ?>/tableau-de-bord/category/analytiques"><i class="fas fa-chart-line"></i> Analytiques</a>
+        <a href="<?= siteurl ?>/tableau-de-bord/category/porte-monnaie"><i class="far fa-wallet"></i> Porte monnaie</a>
+        <a href="<?= siteurl ?>/tableau-de-bord/category/actualites"><i class="fal fa-newspaper"></i> Actualité</a>
       </div>
       <div class="part">
         <h4>Mes sites</h4>
@@ -34,7 +34,23 @@
 
     </div>
     <div id="right" class="right">
-      <?php require root.pre.'view/dashboard/tabs/'.pre.'dashboard.php'; ?>
+      <?php 
+        $category = $ClassMvc->Get('category');
+
+        if($category === "main"):
+          require root.pre.'view/dashboard/tabs/'.pre.'dashboard.php'; 
+        elseif($category === "boutique"):
+          require root.pre.'view/dashboard/tabs/'.pre.'boutique.php'; 
+        elseif($category === "actualites"):
+          require root.pre.'view/dashboard/tabs/'.pre.'actualites.php'; 
+        elseif($category === "factures"):
+          require root.pre.'view/dashboard/tabs/'.pre.'factures.php';
+        elseif($category === "analytiques"):
+          require root.pre.'view/dashboard/tabs/'.pre.'analytiques.php';
+        else:
+          require root.pre.'view/dashboard/tabs/'.pre.'dashboard.php'; 
+        endif;
+      ?>
     </div>
       </div>
     </div>
