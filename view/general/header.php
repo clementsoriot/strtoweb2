@@ -9,7 +9,7 @@
         <a  href="<?= siteurl ?>/nos-partenaires/" class="link">Sites partenaires <i class="fas fa-chevron-right"></i></a>
         <a  href="<?= siteurl ?>/vos-questions/" class="link">F.A.Q <i class="fas fa-chevron-right"></i></a>
         <a  href="<?= siteurl ?>/contactez-nous/" class="link">Nous Contacter <i class="fas fa-chevron-right"></i></a>
-        <a class="btn link">Espace Client <i class="fas fa-arrow-right"></i></a>
+        <a class="btn link" href="<?= siteurl ?>/connexion/">Espace Client <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="part mobile">
         <i class="fa fa-bars hamburger-icon" style="font-size: 1.5rem;" aria-hidden="true"></i>
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="part pc">
-        <img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/drawkit/color/drawkit-content-man-color.svg" alt="">
+        <img height="300" src="<?= siteurl ?>/src/images/undraw_contract_uy56.svg/" alt="">
       </div>
     </div>
   </div>

@@ -37,7 +37,7 @@
         </div>
       </div>
       <div class="part pc">
-        <img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/drawkit/color/drawkit-content-man-color.svg" alt="">
+        <img height="300" src="<?= siteurl ?>/src/images/undraw_contract_uy56.svg/" alt="">
       </div>
     </div>
   </div>

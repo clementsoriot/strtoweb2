@@ -8,16 +8,12 @@ ob_start();
 	define('pre','/');
 	define('siteurl','http://localhost/strtoweb2');
 	define('sitename','StrToWeb');
+	define('session_key','strtoweb');
 
 // End Configuration //
 
 
 
-$PageDisponible['home'] = root.pre.'controller'.pre.'index.php';
-$PageDisponible['login'] = root.pre.'controller'.pre.'login.php';
-$PageDisponible['transition'] = root.pre.'controller'.pre.'transition.php';
-$PageDisponible['dashboard'] = root.pre.'controller'.pre.'dashboard.php';
-$PageDisponible['404'] = root.pre.'controller'.pre.'404.php';
 
 
 // Insert your Dependances here
@@ -26,11 +22,29 @@ require root.pre.'model'.pre.'database.php';
 require root.pre.'model'.pre.'user.php';
 require 'ClassMvc.php';
 
+
 $meta=new Meta;
-$db1=new Database('localhost','root','','test');
+$db=new Database('localhost','root','','strtoweb');
 $user = new User;
+
+	$PageDisponible['home'] = root.pre.'controller'.pre.'index.php';
+	$PageDisponible['connexion'] = root.pre.'controller'.pre.'login.php';
+	$PageDisponible['transition'] = root.pre.'controller'.pre.'transition.php';
+	if($user->isAuth()):
+	$PageDisponible['tableau-de-bord'] = root.pre.'controller'.pre.'dashboard.php';
+	else:
+	$PageDisponible['tableau-de-bord'] = root.pre.'controller'.pre.'login.php';
+	endif;
+	$PageDisponible['404'] = root.pre.'controller'.pre.'404.php';
+
+
+
+
+
 // Class Mvc
+
 $ClassMvc=new Systeme\mvc;
+require root.pre.'model'.pre.'actions.php';
 require $ClassMvc->RequireController;
 
 $GetResultCode=ob_get_clean();
