@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="part pc">
-        <img height="300" src="<?= siteurl ?>/src/images/undraw_contract_uy56.svg/" alt="">
+        <img src="<?= siteurl ?>/src/images/undraw_contract_uy56.svg/" alt="">
       </div>
     </div>
   </div>
