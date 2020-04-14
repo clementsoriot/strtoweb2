@@ -20,12 +20,16 @@ ob_start();
 require root.pre.'model'.pre.'metachanger.php';
 require root.pre.'model'.pre.'database.php';
 require root.pre.'model'.pre.'user.php';
+require root.pre.'model'.pre.'actualites.php';
+require root.pre.'model'.pre.'statistiques.php';
 require 'ClassMvc.php';
 
 
 $meta=new Meta;
 $db=new Database('localhost','root','','strtoweb');
 $user = new User;
+$actualites = new Actualites;
+$statistiques = new statistiques($_SESSION[session_key]['id']);
 
 	$PageDisponible['home'] = root.pre.'controller'.pre.'index.php';
 	$PageDisponible['connexion'] = root.pre.'controller'.pre.'login.php';

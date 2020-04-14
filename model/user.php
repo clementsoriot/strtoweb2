@@ -32,12 +32,12 @@ class User{
 			$val1 = htmlspecialchars(addslashes($_POST['login']['user']));
 			$val2 = htmlspecialchars(addslashes($_POST['login']['pass']));
 
-			$req = $GLOBALS['db']->query("SELECT * FROM user_account WHERE email='$val1'");
+			$req = $GLOBALS['db']->query("SELECT * FROM user_account WHERE user_email='$val1'");
 
 			if(!isset($req[0])):
 				$this->err = "Aucun compte avec cette e-mail"; return;
 			else:
-				if($req[0]->password !== $val2):
+				if($req[0]->user_password !== $val2):
 					$this->err = "Mot de passe incorrect"; return;
 				endif;
 			endif;
@@ -47,7 +47,7 @@ class User{
 
 			if(!$this->err): // Pas d'erreur
 
-				$_SESSION[session_key]['id'] = $req[0]->id;
+				$_SESSION[session_key]['id'] = $req[0]->user_id;
 				header('refresh:0');
 			endif;
 		

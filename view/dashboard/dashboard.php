@@ -47,6 +47,8 @@
           require root.pre.'view/dashboard/tabs/'.pre.'factures.php';
         elseif($category === "analytiques"):
           require root.pre.'view/dashboard/tabs/'.pre.'analytiques.php';
+        elseif($category === "porte-monnaie"):
+          require root.pre.'view/dashboard/tabs/'.pre.'wallet.php';
         else:
           require root.pre.'view/dashboard/tabs/'.pre.'dashboard.php'; 
         endif;

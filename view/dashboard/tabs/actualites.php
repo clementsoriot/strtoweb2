@@ -1,3 +1,4 @@
+<?php $actualites->GetLastActualite(); ?>
 <div class="banner">
   <h1><i class="fal fa-newspaper"></i> Articles</h1>
   <p>Dernières informations à propos de StrToWeb</p>
@@ -7,7 +8,7 @@
     <div class="infos">
       <div class="panel-s">
         <div class="chart">
-          <p>Mise à jour du panel</p>
+          <p>Vous concernant</p>
           <div class="chart-div" style="flex:auto; height:300px;">
             <p>zbui uif uizaf zua huifhzuigeuihgui ezzbui uif uizaf zua huifhzuigeuihgui ez</p>
             <p>Ce qui change :</p>
@@ -21,10 +22,10 @@
       </div>
       <div class="panel-s">
         <div class="chart">
-          <p>Titre du dernier article</p>
+          <p><?= $actualites->titre; ?></p>
           <div class="chart-div" style="flex:auto; height:300px;">
-            <h3>Bonsiuhr</h3>
-            <p>ya eu qq bug hier on était a la chicha srry gozhgoihzoighzzbui uif uizaf zua huifhzuigeuihgui eiug iehgiheuruhguhr uehgherugeoghuoihzougoz ogozhgoihzoighzzbui uif uizaf zua huifhzuigeuihgui eiug iehgiheuruhguhr uehgherugeoghuoihzougoz ogozhgoihzoighzzbui uif uizaf zua huifhzuigeuihgui eiug iehgiheuruhguhr uehgherugeoghuoihzougoz ogozhgoihzoighz</p>
+            <h3>Article rédigé par <?= $actualites->auteur; ?> le <?= date('d.m.Y',$actualites->date); ?></h3>
+            <p><?= $actualites->text; ?></p>
           </div>
         </div>
       </div>
