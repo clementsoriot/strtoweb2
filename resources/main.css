@@ -706,7 +706,13 @@
   font-size: 0.9rem;
   margin-bottom: 1rem;
 }
-.dashboard .content .left .part a, .dashboard .content .left .part p{
+.dashboard .content .left .part a{
+  color: black;
+  transition: 250ms color;
+  font-size: 1rem;
+  margin: 0.3rem 0;
+}
+.dashboard .content .left .part p{
   color: black;
   transition: 250ms color;
   font-size: 1rem;
