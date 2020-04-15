@@ -29,7 +29,8 @@ $meta=new Meta;
 $db=new Database('localhost','root','','strtoweb');
 $user = new User;
 $actualites = new Actualites;
-$statistiques = new statistiques($_SESSION[session_key]['id']);
+
+$statistiques = new statistiques();
 
 	$PageDisponible['home'] = root.pre.'controller'.pre.'index.php';
 	$PageDisponible['connexion'] = root.pre.'controller'.pre.'login.php';

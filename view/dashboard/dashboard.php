@@ -15,7 +15,6 @@
       <div class="part">
         <h4>Informations</h4>
         <a href="<?= siteurl ?>/tableau-de-bord/category/main"><i class="far fa-heart-rate"></i> Tableau de bord</a>
-        <a href="<?= siteurl ?>/tableau-de-bord/category/analytiques"><i class="fas fa-chart-line"></i> Analytiques</a>
         <a href="<?= siteurl ?>/tableau-de-bord/category/porte-monnaie"><i class="far fa-wallet"></i> Porte monnaie</a>
         <a href="<?= siteurl ?>/tableau-de-bord/category/actualites"><i class="fal fa-newspaper"></i> Actualité</a>
       </div>
@@ -24,6 +23,7 @@
         <p onclick="LeftDropDowntkt(1)"><i class="far fa-browser"></i> Web-Hamadi</p>
         <div class="in" id="1" style="display:none">
           <p><i class="fas fa-cogs"></i> Boutique</p>
+		  <a href="<?= siteurl ?>/tableau-de-bord/category/analytiques"><i class="fas fa-chart-line"></i> Analytiques</a>
           <p><i class="far fa-file-alt"></i> Factures</p>
           <p><i class="far fa-eye"></i> Administration</p>
           <p><i class="far fa-comments"></i> Chat développeur</p>

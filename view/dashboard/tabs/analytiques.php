@@ -1,5 +1,5 @@
   <div class="banner">
-    <h1><i class="fas fa-chart-line"></i> Analytiques</h1>
+    <h1><i class="fas fa-chart-line"></i> Analytiques <span>WEB-HAMADI.FR</span></h1>
     <p>Example dashboard overview and content summary</p>
   </div>
   <div class="panel">
@@ -18,7 +18,14 @@
               data: {
                 labels: ['Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi','Dimanche'],
                 datasets: [{
-                    data: [10,50,110,70,213,500,420,550],
+                    data: 
+					[<?= $statistiques->get_stat('123')['d1'] ?>,
+					<?= $statistiques->get_stat('123')['d2'] ?>,
+					<?= $statistiques->get_stat('123')['d3'] ?>,
+					<?= $statistiques->get_stat('123')['d4'] ?>,
+					<?= $statistiques->get_stat('123')['d5'] ?>,
+					<?= $statistiques->get_stat('123')['d6'] ?>,
+					<?= $statistiques->get_stat('123')['d7'] ?>],
                     label: "Visiteurs",
                     borderColor: "#0061f2",
                     fill: true
