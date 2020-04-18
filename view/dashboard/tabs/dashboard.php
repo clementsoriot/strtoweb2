@@ -6,19 +6,18 @@
     <div class="modal-content">
       <span class="close">&times;</span>
       <form class="formdufutursamere" method="post">
-          <img src="https://transpalux.com/wp-content/uploads/2019/02/Paiement-securise-Transpalux-3.png" alt="">
-          <input type="text" placeholder="Titulaire de la carte" name="" value="">
-          <input type="text" placeholder="Numéro de carte" name="" value="">
         <div class="input11">
-          <input type="text" placeholder="MM/YY" name="" value="">
-          <input type="text" placeholder="CCV" name="" value="">
+		  <button>20€</button>
+          <button>50€</button>
+          <button>100€</button>
+		  <input value="20" min="20" type="number" placeholder="Autre">
         </div>
-        <span>Enregister votre carte n'engendrera aucun frais supplémentaire.</span>
         <button type="submit" name="button">Enregister</button>
 
       </form>
     </div>
   </div>
+  
   <div class="panel">
     <div class="parti">
       <div class="cards">
@@ -36,12 +35,12 @@
           </div>
           <div class="card">
             <div class="card-header">
-              <p><b>Moyens de paiement</b></p>
-              <p><i class="fas fa-credit-card"></i> 0213 ***** ***** *****</p>
+              <p><b>Mot de passe</b></p>
+              <p><i class="fas fa-lock"></i> **********</p>
 
             </div>
             <div class="card-body">
-              <a id="myBtn">Modifier les moyens de paiement</a>
+              <a href=>Modifier mon mot de passe</a>
 
             </div>
           </div>
@@ -64,7 +63,7 @@
               <p>Reçu #518740: 2€</p>
             </div>
             <div class="card-body">
-              <a href="">Recharger mon porte monnaie</a>
+              <a id="myBtn">Recharger mon porte monnaie</a>
             </div>
           </div>
         </div>

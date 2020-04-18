@@ -1172,12 +1172,18 @@ color: white;
   border-radius: 5px;
   margin: .5rem 0;
 }
-.dashboard .modal-content .formdufutursamere .input11 input:first-child{
-  margin-right: 4px;
+.dashboard .modal-content .formdufutursamere .input11 button{
+	border: none;outline: none;
+  flex:1;
+  margin: 0 1rem;
+  padding: 1rem;
+  border-radius: 0px;
+  background: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-.dashboard .modal-content .formdufutursamere .input11 input:last-child{
-  margin-left: 4px;
-}
+
 .dashboard .modal-content .formdufutursamere button{
   border: none;outline: none;
   width: 250px;
