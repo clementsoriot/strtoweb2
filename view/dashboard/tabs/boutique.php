@@ -1,104 +1,37 @@
 <div class="banner">
-  <h1><i class="fas fa-cogs"></i> Gérer <span>WEB-HAMADI.FR</span></h1>
-  <p>Example dashboard overview and content summary</p>
+  <h1><i class="fas fa-cogs"></i> Boutique <span>WEB-HAMADI.FR</span></h1>
+  <p>Ajouter des options à votre site.<br>Tout les paiement se font à partir du porte monnaie vous avez: 55€</p>
 </div>
 <div class="panel">
   <div class="parti">
     <div class="infos" style="flex-direction: column;">
       <div class="cards">
+ 
         <div class="part">
           <div class="card whitecard">
             <div class="card-header">
               <img src="https://themes.startbootstrap.com/sb-admin-pro/assets/img/drawkit/color/drawkit-charts-and-graphs.svg" class="imdutufu" alt="">
-              <p>Herbergement</p>
-              <span>Ce qui permet à votre de site d'avoir une maison</span>
+              <p>Seo Avancé</p>
+
+              <span><i class="fas fa-info-circle"></i> Soyez mieux referencer sur Google.</span>
             </div>
             <div class="card-body">
-              <a href="">Acheter +1 mois | 30$</a>
+              <a href="">Activer maintenant 5€/mois</a>
             </div>
           </div>
           <div class="card whitecard">
             <div class="card-header">
               <img src="https://themes.startbootstrap.com/sb-admin-pro/assets/img/drawkit/color/drawkit-charts-and-graphs.svg" class="imdutufu" alt="">
-              <p>Nom de domaine</p>
-              <span>Votre site est né, mais il n'a pas de nom, arrangeons tout ça</span>
+              <p>Statistique</p>
+             
+              <span><i class="fas fa-exclamation-circle"></i> Regardez combiens de personne on consulter votre site durant la semaine grace a un graphique.</span>
             </div>
             <div class="card-body">
-              <a href="">Acheter +1 mois | 30$</a>
-            </div>
-          </div>
-        </div>
-        <div class="part">
-          <div class="card whitecard">
-            <div class="card-header">
-              <img src="https://themes.startbootstrap.com/sb-admin-pro/assets/img/drawkit/color/drawkit-charts-and-graphs.svg" class="imdutufu" alt="">
-              <p>Certificat SSL</p>
-              <span>Votre site est en danger, des pirates veulent l'attaquer</span>
-            </div>
-            <div class="card-body">
-              <a href="">Acheter +1 mois | 30$</a>
-            </div>
-          </div>
-          <div class="card whitecard">
-            <div class="card-header">
-              <img src="https://themes.startbootstrap.com/sb-admin-pro/assets/img/drawkit/color/drawkit-charts-and-graphs.svg" class="imdutufu" alt="">
-              <p>Web Master</p>
-              <span>Votre site pourra posséder un developpeur privé ! Pour toutes modifications importantes !</span>
-            </div>
-            <div class="card-body">
-              <a href="">Acheter +1 mois | 30$</a>
+              <a href="">Activer maintenant 11€/mois</a>
             </div>
           </div>
         </div>
 
-      </div>
-      <div class="cards">
-        <div class="part">
-          <div class="card whitecard">
-            <div class="card-header">
-              <img src="https://themes.startbootstrap.com/sb-admin-pro/assets/img/drawkit/color/drawkit-charts-and-graphs.svg" class="imdutufu" alt="">
-              <p>Service Editing</p>
-              <span>Besoin d'une petite modifications ?</span>
-            </div>
-            <div class="card-body">
-              <a href="">Acheter +1 mois | 30$</a>
-            </div>
-          </div>
-          <div class="card whitecard">
-            <div class="card-header">
-              <img src="https://themes.startbootstrap.com/sb-admin-pro/assets/img/drawkit/color/drawkit-charts-and-graphs.svg" class="imdutufu" alt="">
-              <p>Service mailing</p>
-              <span>Votre site a besoin d'envoyer des mails ?</span>
-            </div>
-            <div class="card-body">
-              <a href="">Acheter +1 mois | 30$</a>
-            </div>
-          </div>
-        </div>
-        <div class="part">
-          <div class="card whitecard">
-            <div class="card-header">
-              <img src="https://themes.startbootstrap.com/sb-admin-pro/assets/img/drawkit/color/drawkit-charts-and-graphs.svg" class="imdutufu" alt="">
-              <p>Herbergement</p>
-              <span>Ce qui permet à votre de site d'avoir une maison</span>
-            </div>
-            <div class="card-body">
-              <a href="">Acheter +1 mois | 30$</a>
-            </div>
-          </div>
-          <div class="card whitecard">
-            <div class="card-header">
-              <img src="https://themes.startbootstrap.com/sb-admin-pro/assets/img/drawkit/color/drawkit-charts-and-graphs.svg" class="imdutufu" alt="">
-              <p>Herbergement</p>
-              <span>Ce qui permet à votre de site d'avoir une maison</span>
-            </div>
-            <div class="card-body">
-              <a href="">Acheter +1 mois | 30$</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
     </div>
 </div>
 </div>

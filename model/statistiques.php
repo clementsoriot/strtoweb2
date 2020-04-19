@@ -4,6 +4,7 @@ Class statistiques{
 	
 	public function __construct(){
 
+		$this->user_id = $_SESSION[session_key]['id'];
 		$this->bd = $GLOBALS['db'];
 	
 	}
@@ -36,8 +37,11 @@ Class statistiques{
 		
 		
 		
+
+
+
 	}
+
 	
 
 }
-

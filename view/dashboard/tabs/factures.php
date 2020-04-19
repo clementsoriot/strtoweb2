@@ -1,29 +1,29 @@
   <div class="banner">
-    <h1><i class="far fa-file-alt"></i> Factures <span>WEB-HAMADI.FR</span></h1>
-    <p>Example dashboard overview and content summary</p>
+    <h1><i class="far fa-file-alt"></i> Factures <span>Clément Soriot</span></h1>
+    <p>Gardez la main sur vos paiement.</p>
   </div>
   <div class="panel">
     <div class="parti">
       <div class="infos">
         <table>
           <tr>
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
+            <th>Prestation</th>
+            <th>Action</th>
+            <th>Montant</th>
           </tr>
           <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
+            <td>Hebergement - Prelevement #1</td>
+            <td><a>Télécharger le PDF</a></td>
+            <td>10€</td>
           </tr>
           <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
+            <td>Nom de domaine - Prelevement #2</td>
+            <td><a>Télécharger le PDF</a></td>
             <td>Mexico</td>
           </tr>
           <tr>
-            <td>Ernst Handel</td>
-            <td>Roland Mendel</td>
+            <td>Remboursement #4</td>
+            <td><a>Télécharger le PDF</a></td>
             <td>Austria</td>
           </tr>
           <tr>

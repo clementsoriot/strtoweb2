@@ -10,7 +10,7 @@
         <div class="chart">
           <p>Vous concernant</p>
           <div class="chart-div" style="flex:auto; height:300px;">
-            <p>zbui uif uizaf zua huifhzuigeuihgui ezzbui uif uizaf zua huifhzuigeuihgui ez</p>
+            <p>Vous avez un défaut de paiement</p>
             <p>Ce qui change :</p>
             <ul>
               <li>Meilleur animation</li>
