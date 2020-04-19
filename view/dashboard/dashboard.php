@@ -17,16 +17,15 @@
         <a href="<?= siteurl ?>/tableau-de-bord/category/main"><i class="far fa-heart-rate"></i> Tableau de bord</a>
         <a href="<?= siteurl ?>/tableau-de-bord/category/porte-monnaie"><i class="far fa-wallet"></i> Porte monnaie</a>
         <a href="<?= siteurl ?>/tableau-de-bord/category/actualites"><i class="fal fa-newspaper"></i> Actualité</a>
+        <a href="<?= siteurl ?>/tableau-de-bord/category/factures"><i class="fal fa-newspaper"></i> Actualité</a>
       </div>
       <div class="part">
         <h4>Mes sites</h4>
         <p onclick="LeftDropDowntkt(1)"><i class="far fa-browser"></i> Web-Hamadi</p>
-        <div class="in" id="1" style="display:none">
-          <p><i class="fas fa-cogs"></i> Boutique</p>
+        <div class="in" id="1" style="display:none;">
+          <a style="display:block;"  href="<?= siteurl ?>/tableau-de-bord/category/boutique/"><i class="fas fa-cogs"></i> Boutique</a>
+          <a style="display:block;"  href="<?= siteurl ?>/tableau-de-bord/category/renouvellement/"><i class="fas fa-cogs"></i> Renouvellement</a>
 		  <a href="<?= siteurl ?>/tableau-de-bord/category/analytiques"><i class="fas fa-chart-line"></i> Analytiques</a>
-          <p><i class="far fa-file-alt"></i> Factures</p>
-          <p><i class="far fa-eye"></i> Administration</p>
-          <p><i class="far fa-comments"></i> Chat développeur</p>
         </div>
 
 
@@ -49,6 +48,8 @@
           require root.pre.'view/dashboard/tabs/'.pre.'analytiques.php';
         elseif($category === "porte-monnaie"):
           require root.pre.'view/dashboard/tabs/'.pre.'wallet.php';
+        elseif($category === "renouvellement"):
+          require root.pre.'view/dashboard/tabs/'.pre.'renouvellement.php';
         else:
           require root.pre.'view/dashboard/tabs/'.pre.'dashboard.php'; 
         endif;

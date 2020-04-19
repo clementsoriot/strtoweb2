@@ -32,10 +32,19 @@
                   }
                 ]
               },
+			  
               options: {
                 legend: {
                   display: false,
                 },
+				scales: {
+  yAxes: [{
+    ticks: {
+      stepSize: 1,
+      beginAtZero: true,
+    },
+  }],
+},
               }
             });
 
