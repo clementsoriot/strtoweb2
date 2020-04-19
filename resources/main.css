@@ -12,6 +12,7 @@
 .pc{
   display: flex !important;
 }
+.bg-red{background: red !important;}
 .header{
   position: relative;
   display: flex;
