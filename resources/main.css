@@ -12,7 +12,7 @@
 .pc{
   display: flex !important;
 }
-.bg-red{background: red !important;}
+.bg-red{background: linear-gradient(90deg, #93291E, #ED213A) !important;}
 .header{
   position: relative;
   display: flex;
