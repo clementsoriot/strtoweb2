@@ -711,11 +711,13 @@
   transition: 250ms color;
   font-size: 1rem;
   margin: 0.3rem 0;
+  text-decoration: none;
 }
 .dashboard .content .left .part p{
   color: black;
   transition: 250ms color;
   font-size: 1rem;
+  text-decoration: none;
   margin: 0.3rem 0;
 }
 .dashboard .content .left .part i{
