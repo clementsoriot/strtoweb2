@@ -17,17 +17,15 @@
         <a href="<?= siteurl ?>/tableau-de-bord/category/main"><i class="far fa-heart-rate"></i> Tableau de bord</a>
         <a href="<?= siteurl ?>/tableau-de-bord/category/porte-monnaie"><i class="far fa-wallet"></i> Porte monnaie</a>
         <a href="<?= siteurl ?>/tableau-de-bord/category/actualites"><i class="fal fa-newspaper"></i> Actualité</a>
-        <a href="<?= siteurl ?>/tableau-de-bord/category/factures"><i class="fal fa-newspaper"></i> Actualité</a>
+        <a href="<?= siteurl ?>/tableau-de-bord/category/factures"><i class="fal fa-newspaper"></i> Factures</a>
       </div>
       <div class="part">
-        <h4>Mes sites</h4>
-        <p onclick="LeftDropDowntkt(1)"><i class="far fa-browser"></i> Web-Hamadi</p>
-        <div class="in" id="1" style="display:none;">
-          <a style="display:block;"  href="<?= siteurl ?>/tableau-de-bord/category/boutique/"><i class="fas fa-cogs"></i> Boutique</a>
-          <a style="display:block;"  href="<?= siteurl ?>/tableau-de-bord/category/renouvellement/"><i class="fas fa-cogs"></i> Renouvellement</a>
-		  <a href="<?= siteurl ?>/tableau-de-bord/category/analytiques"><i class="fas fa-chart-line"></i> Analytiques</a>
-        </div>
+        <h4>Vos sites (<?= $user->GetSiteCount() ?>) </h4>
+        <?= $user->GetSiteList() ?>
 
+        <h4>Vos WebMail (<?= $user->GetWMCount() ?>) </h4>
+        <?= $user->GetWMList() ?>
+   
 
       </div>
 

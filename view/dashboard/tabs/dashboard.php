@@ -52,37 +52,48 @@
             <div class="card-header">
               <p><b>Paiement Mensuel</b></p>
               <div>
-              <p>Renouvellement: 55€</p>
-              <p><i class="fas fa-exclamation-circle"></i> Retard de paiement: +5€</p>
-              <p style="text-align:right">Total: 60€</p>
-          
+              <p style="font-size:3rem;text-align:center">14€<span style="font-size:1rem">/mois</span> </p>
+           
+      
             </div>
             </div>
-            <div class="card-body">
-              <a>Consulter mon actualité</a>
-            </div>
+    
           </div>
         </div>
         <div class="part">
           <div class="card">
             <div class="card-header">
               <p><b>Factures</b></p>
-              <p>Hebergement: 50€</p>
-              <p>Nom de domaine: 12€</p>
+              <p style="font-size:1.5rem;">-7€<span style="font-size:1rem">/Hebergement</span></p>
+              <p style="font-size:1.5rem;">-2€<span style="font-size:1rem">/Domaine</span></p>
+              <p style="font-size:1.5rem;">-5€<span style="font-size:1rem">/Hebergement</span></p>
             </div>
             <div class="card-body">
               <a href="">Voir toutes les factures</a>
             </div>
           </div>
-          <div class="card">
-            <div class="card-header">
-              <p><b>Porte monnaie (30€)</b></p>
-              <p>Reçu #518741: 2€</p>
-              <p>Reçu #518740: 2€</p>
+          <div class="card 
+          <?php 
+          if($user->GetMonnaie() < 0 ):
+            echo 'bg-red'; 
+          endif;
+          ?>">
+            <div class="card-header ">
+              <p><b>Solde:</b></p>
+              <p style="font-size:3rem;text-align:center"><?= $user->GetMonnaie() ?>€</p>
+        
+            
             </div>
-            <div class="card-body">
+            <div class="card-body
+            <?php 
+            if($user->GetMonnaie() < 0 ):
+              echo 'bg-red'; 
+            endif;
+            ?>
+            ">
               <a onclick="modal_open('rechargeModal','op')">Recharger mon porte monnaie</a>
             </div>
+
           </div>
         </div>
 

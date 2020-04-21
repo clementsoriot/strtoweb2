@@ -10,37 +10,21 @@
             <th>Prestation</th>
             <th>Action</th>
             <th>Montant</th>
+            <th>Solde après</th>
           </tr>
           <tr>
             <td>Hebergement - Prelevement #1</td>
             <td><a>Télécharger le PDF</a></td>
-            <td>10€</td>
+            <td><p style="font-size:1.5rem;">10€<span style="font-size:1rem"></span></td>
+            <td><p style="font-size:1.5rem;">-5€<span style="font-size:1rem">/Solde</span></td>
           </tr>
           <tr>
             <td>Nom de domaine - Prelevement #2</td>
             <td><a>Télécharger le PDF</a></td>
-            <td>Mexico</td>
+            <td><p style="font-size:1.5rem;">10€<span style="font-size:1rem"></span></td>
+            <td><p style="font-size:1.5rem;">-10€<span style="font-size:1rem">/Solde</span></td>
           </tr>
-          <tr>
-            <td>Remboursement #4</td>
-            <td><a>Télécharger le PDF</a></td>
-            <td>Austria</td>
-          </tr>
-          <tr>
-            <td>Island Trading</td>
-            <td>Helen Bennett</td>
-            <td>UK</td>
-          </tr>
-          <tr>
-            <td>Laughing Bacchus Winecellars</td>
-            <td>Yoshi Tannamuri</td>
-            <td>Canada</td>
-          </tr>
-          <tr>
-            <td>Magazzini Alimentari Riuniti</td>
-            <td>Giovanni Rovelli</td>
-            <td>Italy</td>
-          </tr>
+         
         </table>
       </div>
   </div>

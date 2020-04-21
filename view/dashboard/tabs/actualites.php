@@ -1,6 +1,6 @@
 <?php $actualites->GetLastActualite(); ?>
 <div class="banner">
-  <h1><i class="fal fa-newspaper"></i> Articles</h1>
+  <h1><i class="fal fa-newspaper"></i> Informations</h1>
   <p>Dernières informations à propos de StrToWeb</p>
 </div>
 <div class="panel">
@@ -8,14 +8,19 @@
     <div class="infos">
       <div class="panel-s">
         <div class="chart">
-          <p>Vous concernant</p>
+          <p>Mentions légales</p>
           <div class="chart-div" style="flex:auto; height:300px;">
-            <p>Vous avez un défaut de paiement</p>
-            <p>Ce qui change :</p>
+            <p>Retard de paiement:</p>
             <ul>
-              <li>Meilleur animation</li>
-              <li>Meilleur panel de couscous</li>
-              <li>Meilleur animation</li>
+              <li>Votre solde passe en négatif</li>
+              <li>S'applique des frais d'un euro par jours pendant que votre solde est en négatif</li>
+              <li>Chaque prelevement s'applique le prix + 5€</li>
+            </ul>
+            <p>Remboursement/Resiliation:</p>
+            <ul>
+              <li>Le remboursement du solde n'est pas possible.</li>
+              <li>Tout travail effectué ou produit acheté n'est pas remboursable.</li>
+              <li>Vous pouvez décider d'arrêter de payer une option superflux sur <br/>votre site en cliquant sur "Arreter l'abonnement" celui-ci prendera fin directement,<br/>mais ne sera pas remboursé.</li>
             </ul>
           </div>
         </div>
