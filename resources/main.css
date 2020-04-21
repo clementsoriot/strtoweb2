@@ -1013,6 +1013,20 @@ color: #0061f2;
 .dashboard .content .right .panel .parti .infos .panel-s{
   position: relative;
 }
+
+
+.dashboard .content .right .panel .parti .mail {
+  border-collapse: collapse;
+  width: 98%;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+.dashboard .content .right .panel .parti .mail tr{
+  display: flex;justify-content: space-between;align-items: center;
+}
+
+
 .dashboard .content .right .panel .parti .infos .disabled{
   content: 'L\'option n\'est pas prise';
   background: rgba(0,0,0,0.5);

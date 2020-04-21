@@ -41,7 +41,8 @@
             <td>Giovanni Rovelli</td>
             <td>Italy</td>
           </tr>
+
         </table>
       </div>
   </div>
-</div>
+  </div>
