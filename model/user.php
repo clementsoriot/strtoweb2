@@ -119,8 +119,8 @@ class User{
           <a style="display:block;"  href="<?= siteurl ?>/tableau-de-bord/category/boutique/"><i class="fas fa-cogs"></i> Boîte Mail (<?= $mail->ListWMBoxCount() ?>)</a>
           <a style="display:block;"  href="<?= siteurl ?>/tableau-de-bord/category/renouvellement/"><i class="fas fa-cogs"></i> Ecrire un mail</a>
         </div>
-        <?php print_r($mail->mail()) ?>
-        <?php $mail->ListWMBox() ?>
+        <?php // print_r($mail->mail()) ?>
+        <?php // $mail->ListWMBox() ?>
 		<?php
 
 		}
