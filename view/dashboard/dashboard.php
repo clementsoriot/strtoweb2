@@ -48,6 +48,8 @@
           require root.pre.'view/dashboard/tabs/'.pre.'wallet.php';
         elseif($category === "renouvellement"):
           require root.pre.'view/dashboard/tabs/'.pre.'renouvellement.php';
+        elseif($category === "mail"):
+          require root.pre.'view/dashboard/tabs/'.pre.'mail.php';
         else:
           require root.pre.'view/dashboard/tabs/'.pre.'dashboard.php'; 
         endif;
