@@ -1009,6 +1009,7 @@ flex-direction: column;
 .dashboard .content .right .panel .parti th{
 color: #0061f2;
 }
+
 .dashboard .content .right .panel .parti .mailer td {
   display: flex;
   justify-content: space-between;
