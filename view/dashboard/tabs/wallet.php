@@ -7,23 +7,10 @@
     <div class="infos">
       <table>
         <tr>
-          <th>Porte monnaie - 150€</th>
+          <th>Porte monnaie - (<?= $user->GetMonnaie() ?>€)</th>
         </tr>
-        <tr>
-          <td>100.00€ - PubStrToWeb 17.03.2021 </td>
-        </tr>
-        <tr>
-          <td>100.00€ - PubStrToWeb 17.03.2021 </td>
-        </tr>
-        <tr>
-          <td>100.00€ - PubStrToWeb 17.03.2021 </td>
-        </tr>
-        <tr>
-          <td>100.00€ - PubStrToWeb 17.03.2021 </td>
-        </tr>
-        <tr>
-          <td>100.00€ - PubStrToWeb 17.03.2021 </td>
-        </tr>
+        <?= $user->GetMonnaieHistory() ?>
+
       </table>
     </div>
 </div>

@@ -22,6 +22,7 @@ require root.pre.'model'.pre.'database.php';
 require root.pre.'model'.pre.'user.php';
 require root.pre.'model'.pre.'actualites.php';
 require root.pre.'model'.pre.'statistiques.php';
+require root.pre.'model'.pre.'wbmail.php';
 require 'ClassMvc.php';
 
 

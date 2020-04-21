@@ -4,13 +4,16 @@ Class statistiques{
 	
 	public function __construct(){
 
-		$this->user_id = $_SESSION[session_key]['id'];
-		$this->bd = $GLOBALS['db'];
+		if(isset($_SESSION[session_key]['id'])):
+			$this->user_id = $_SESSION[session_key]['id'];
+			$this->bd = $GLOBALS['db'];
+		endif;
 	
 	}
 	
 	public function get_stat($token){
 		
+		if(isset($_SESSION[session_key]['id'])):
 		$date = time()-604800;
 		
 		$req1 = $this->bd->query("SELECT * FROM visitor WHERE v_site_token='$token' AND v_timestamp >= $date AND d1=1");
@@ -33,7 +36,7 @@ Class statistiques{
 		
 		);
 		
-	
+		endif;
 		
 		
 		
