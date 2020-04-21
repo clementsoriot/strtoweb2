@@ -12,6 +12,7 @@
           <td>
             <p><b>Alain Akbar</b> | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor zebi do sed ahtchoune...</p>
             <p>25.04.20 à 17:25</p>
+            
           </td>
           <td>
             <p><b>Alain Akbar</b> | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor zebi do sed ahtchoune...</p>
