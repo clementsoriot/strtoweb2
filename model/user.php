@@ -104,6 +104,16 @@ class User{
 		
 	}
 
+	public function VerifyIHaveBeenWM($wmid){
+
+		$id  = $_SESSION[session_key]['id'];
+		$req = $GLOBALS['db']->query("SELECT * FROM webmail_list WHERE access_user_id='$id' AND wm_id='$wmid'");
+
+		if(isset($req[0])):
+			return $req;
+		endif;
+
+	}
 	public function GetWMList(){
 
 		$id  = $_SESSION[session_key]['id'];
@@ -116,11 +126,9 @@ class User{
 
 		<p onclick="LeftDropDowntkt('wm<?= $value->wm_id ?>')"><i class="far fa-browser"></i> <?= $value->wm_adress ?></p>
         <div class="in" id="wm<?= $value->wm_id ?>" style="display:none;">
-          <a style="display:block;"  href="<?= siteurl ?>/tableau-de-bord/category/boutique/"><i class="fas fa-cogs"></i> Boîte Mail (<?= $mail->ListWMBoxCount() ?>)</a>
+          <a style="display:block;"  href="<?= siteurl ?>/tableau-de-bord/category/mail/webmail/<?= $value->wm_id ?>/"><i class="fas fa-cogs"></i> Boîte Mail (<?= $mail->ListWMBoxCount() ?>)</a>
           <a style="display:block;"  href="<?= siteurl ?>/tableau-de-bord/category/renouvellement/"><i class="fas fa-cogs"></i> Ecrire un mail</a>
         </div>
-        <?php // print_r($mail->mail()) ?>
-        <?php // $mail->ListWMBox() ?>
 		<?php
 
 		}

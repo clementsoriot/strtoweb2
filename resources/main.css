@@ -1026,7 +1026,7 @@ color: #0061f2;
   background: white;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
-.dashboard .content .right .panel .parti .mail tr{
+.dashboard .content .right .panel .parti .mail td{
   display: flex;justify-content: space-between;align-items: center;
 }
 
